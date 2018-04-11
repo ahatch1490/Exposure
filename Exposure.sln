@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExposureAPI", "ExposureAPI\ExposureAPI.csproj", "{2953E26C-7803-44A9-BFEE-BDCC3473105E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExposureTest", "ExposureTest\ExposureTest.csproj", "{79319CFA-3725-4584-AD3C-258BD73F448A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2953E26C-7803-44A9-BFEE-BDCC3473105E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2953E26C-7803-44A9-BFEE-BDCC3473105E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2953E26C-7803-44A9-BFEE-BDCC3473105E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2953E26C-7803-44A9-BFEE-BDCC3473105E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79319CFA-3725-4584-AD3C-258BD73F448A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79319CFA-3725-4584-AD3C-258BD73F448A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79319CFA-3725-4584-AD3C-258BD73F448A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79319CFA-3725-4584-AD3C-258BD73F448A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

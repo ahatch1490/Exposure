@@ -1,0 +1,66 @@
+# Autosave files
+*~
+# node 
+# build
+[Oo]bj/
+[Bb]in/
+packages/
+TestResults/
+
+# globs
+Makefile.in
+*.DS_Store
+*.sln.cache
+*.suo
+*.cache
+*.pidb
+*.userprefs
+*.usertasks
+config.log
+config.make
+config.status
+aclocal.m4
+install-sh
+autom4te.cache/
+*.user
+*.tar.gz
+tarballs/
+test-results/
+Thumbs.db
+.vs/
+
+# Mac bundle stuff
+*.dmg
+*.app
+
+# resharper
+*_Resharper.*
+*.Resharper
+
+# dotCover
+*.dotCover
+
+/build/
+/deploy/
+/benchpress-build/
+.DS_Store
+gen_docs.disable
+test.disable
+regression/temp*.html
+performance/temp*.html
+.idea/workspace.xml
+*~
+*.swp
+angular.js.tmproj
+node_modules/
+angular.xcodeproj
+.idea
+*.iml
+.agignore
+.lvimrc
+libpeerconnection.log
+npm-debug.log
+/tmp/
+.vscode
+*.log
+*.stackdump
