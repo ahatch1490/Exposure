@@ -1,27 +1,38 @@
 
-      <mat-grid-list cols="2" rowHeight="2:1">
-          <mat-grid-tile>
-            <button mat-button (click)="onNavTo('github')" style="height:100%; width:100%;" >
-              <fa name="github" size="5x"  ></fa>   
-            </button>     
-          </mat-grid-tile>
-          <mat-grid-tile>
-              <button mat-button (click)="onNavTo('books')" style="height:100%; width:100%;" >
-              <fa name="book" size="5x" ></fa>
-              </button>
-          </mat-grid-tile>
-          <mat-grid-tile>
-              <button mat-button (click)="onNavTo('so')" style="height:100%; width:100%;" >
-                <fa name="stack-overflow" size="5x" ></fa>
-              </button>
+       <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+                <h1><fa name="bars" size="1x"></fa></h1>
+            </mat-panel-title>
+            <mat-panel-description>
+              <h1>Anthony Hatch</h1>
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <mat-grid-list cols="2" rowHeight="2:1">
+            <mat-grid-tile>
+              <button mat-button (click)="onNavTo('github')" style="height:100%; width:100%;" >
+                <fa name="github" size="5x"  ></fa>   
+              </button>     
             </mat-grid-tile>
-    
-          <mat-grid-tile>
-              <button mat-button (click)="onNavTo('linkedin')" style="height:100%; width:100%;" >
-                  <fa name="linkedin" size="5x" inverse=true ></fa>
-              </button>  
-          </mat-grid-tile>
-     
-      </mat-grid-list>
+            <mat-grid-tile>
+                <button mat-button (click)="onNavTo('books')" style="height:100%; width:100%;" >
+                <fa name="book" size="5x" ></fa>
+                </button>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <button mat-button (click)="onNavTo('so')" style="height:100%; width:100%;" >
+                  <fa name="stack-overflow" size="5x" ></fa>
+                </button>
+              </mat-grid-tile>
       
+            <mat-grid-tile>
+                <button mat-button (click)="onNavTo('linkedin')" style="height:100%; width:100%;" >
+                    <fa name="linkedin" size="5x" inverse=true ></fa>
+                </button>  
+            </mat-grid-tile>
+          </mat-grid-list>
+          
+        </mat-expansion-panel>
+      
+    
 
