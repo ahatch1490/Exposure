@@ -8,31 +8,76 @@
               <h1>Anthony Hatch</h1>
             </mat-panel-description>
           </mat-expansion-panel-header>
-          <mat-grid-list cols="2" rowHeight="2:1">
+          <!-- <mat-grid-list cols="2" rowHeight="2:1">
+              <mat-grid-tile>
+                  <button mat-button routerLink="/bio" style="height:100%; width:100%;" >
+                    <fa name="user-circle" size="5x" inverse=true  ></fa>   
+                  </button>     
+                </mat-grid-tile>
+                <mat-grid-tile>
+                    <button mat-button routerLink="/education" style="height:100%; width:100%;" >
+                    <fa name="graduation-cap" size="5x" ></fa>
+                    </button>
+                </mat-grid-tile>
             <mat-grid-tile>
-              <button mat-button (click)="onNavTo('github')" style="height:100%; width:100%;" >
+              <button mat-button routerLink="/github" style="height:100%; width:100%;" >
                 <fa name="github" size="5x"  ></fa>   
               </button>     
             </mat-grid-tile>
             <mat-grid-tile>
-                <button mat-button (click)="onNavTo('books')" style="height:100%; width:100%;" >
+                <button mat-button routerLink="/books" style="height:100%; width:100%;" >
                 <fa name="book" size="5x" ></fa>
                 </button>
             </mat-grid-tile>
             <mat-grid-tile>
-                <button mat-button (click)="onNavTo('so')" style="height:100%; width:100%;" >
+                <button mat-button routerLink="/stack-overflow" style="height:100%; width:100%;" >
+
                   <fa name="stack-overflow" size="5x" ></fa>
                 </button>
               </mat-grid-tile>
       
             <mat-grid-tile>
-                <button mat-button (click)="onNavTo('linkedin')" style="height:100%; width:100%;" >
+                <button mat-button routerLink="/linkedin" style="height:100%; width:100%;" >
                     <fa name="linkedin" size="5x" inverse=true ></fa>
                 </button>  
             </mat-grid-tile>
-          </mat-grid-list>
-          
-        </mat-expansion-panel>
+          </mat-grid-list> -->
+          <div 
+fxLayout="row" 
+fxLayout.xs="column" 
+fxFlexFill>
+<div fxFlex="33" item-width="50%"  >
+        <button mat-button routerLink="/bio" >
+            <fa name="user-circle" size="5x" ></fa>   
+        </button>        
+    </div>
+<div  fxFlex="33" item-width="50%"  >
+    <button mat-button routerLink="/github"   >
+        <fa name="github" size="5x"   ></fa>   
+    </button>                  
+</div>
+<div fxFlex="33" item-width="50%" >
+    <button mat-button routerLink="/education"  >
+        <fa name="graduation-cap" size="5x"  ></fa>   
+    </button>        
+</div>
+<div fxFlex="33" item-width="50%" >
+    <button mat-button routerLink="/stack-overflow" >
+        <fa name="stack-overflow" size="5x"  ></fa>   
+    </button>        
+</div>
+<div fxFlex="33"  item-width="50%" >
+    <button  mat-button routerLink="/linkedin" >
+        <fa name="linkedin" size="5x"  ></fa>   
+    </button>        
+</div>
+<div fxFlex="33"  item-width="50%" >
+        <button  mat-button routerLink="/books" >
+            <fa name="book" size="5x"  ></fa>   
+        </button>        
+    </div>
+</div>
+</mat-expansion-panel>
       
     
 

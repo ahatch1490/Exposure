@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ExposureAPI.Resources.Client;
+using ExposureAPI.Resources.GoodReads;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -24,6 +26,12 @@ namespace ExposureAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddSingleton<IContextClient, ContextClient>(); 
+            services.AddSingleton<IGoodReadsSettings, GoodReadsSettings>();
+            services.AddSingleton<IXMLClient, XMLClient>();
+            services.AddSingleton<IGoodReadsService,GoodReadsService>();
+          
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

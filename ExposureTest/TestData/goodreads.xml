@@ -1,0 +1,1343 @@
+﻿<GoodreadsResponse>
+    <Request>
+        <authentication>true</authentication>
+        <key><![CDATA[XjRNur6c74UDbjqHsZ5Iw]]></key>
+        <method><![CDATA[review_list]]></method>
+    </Request>
+
+    <shelf exclusive='false' id='45282281' name='programming' sortable='false'></shelf>
+
+    <reviews start="1" end="17" total="17">
+        <review>
+            <id>2369938520</id>
+            <book>
+                <id type="integer">4099</id>
+                <isbn>020161622X</isbn>
+                <isbn13>9780201616224</isbn13>
+                <text_reviews_count type="integer">573</text_reviews_count>
+                <uri>kca://book/amzn1.gr.book.v1.jLzxuyNCafJD8jVEw1Ni1g</uri>
+                <title>The Pragmatic Programmer: From Journeyman to Master</title>
+                <title_without_series>The Pragmatic Programmer: From Journeyman to Master</title_without_series>
+                <image_url>https://images.gr-assets.com/books/1401432508m/4099.jpg</image_url>
+                <small_image_url>https://images.gr-assets.com/books/1401432508s/4099.jpg</small_image_url>
+                <large_image_url/>
+                <link>https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer</link>
+                <num_pages>321</num_pages>
+                <format>Paperback</format>
+                <edition_information/>
+                <publisher>Addison-Wesley Professional</publisher>
+                <publication_day>30</publication_day>
+                <publication_year>1999</publication_year>
+                <publication_month>10</publication_month>
+                <average_rating>4.31</average_rating>
+                <ratings_count>11560</ratings_count>
+                <description>-- Ward Cunningham Straight from the programming trenches, The Pragmatic Programmer cuts through the increasing specialization and technicalities of modern software development to examine the core process--taking a requirement and producing working, maintainable code that delights its users. It covers topics ranging from personal responsibility and career development to architectural techniques for keeping your code flexible and easy to adapt and reuse. Read this book, and youll learn how to *Fight software rot; *Avoid the trap of duplicating knowledge; *Write flexible, dynamic, and adaptable code; *Avoid programming by coincidence; *Bullet-proof your code with contracts, assertions, and exceptions; *Capture real requirements; *Test ruthlessly and effectively; *Delight your users; *Build teams of pragmatic programmers; and *Make your developments more precise with automation. Written as a series of self-contained sections and filled with entertaining anecdotes, thoughtful examples, and interesting analogies, The Pragmatic Programmer illustrates the best practices and major pitfalls of many different aspects of software development. Whether youre a new coder, an experienced programm</description>
+                <authors>
+                    <author>
+                        <id>2815</id>
+                        <name>Andy Hunt</name>
+                        <role></role>
+                        <image_url nophoto='false'>
+                            <![CDATA[https://images.gr-assets.com/authors/1215370372p5/2815.jpg]]>
+                        </image_url>
+                        <small_image_url nophoto='false'>
+                            <![CDATA[https://images.gr-assets.com/authors/1215370372p2/2815.jpg]]>
+                        </small_image_url>
+                        <link><![CDATA[https://www.goodreads.com/author/show/2815.Andy_Hunt]]></link>
+                        <average_rating>4.21</average_rating>
+                        <ratings_count>16237</ratings_count>
+                        <text_reviews_count>901</text_reviews_count>
+                    </author>
+                </authors>
+                <published>1999</published>
+                <work>  <id>7809</id>
+                    <uri>kca://work/amzn1.gr.work.v1.cITwkxzDF6mATdtGyefYzA</uri>
+                </work></book>
+
+
+            <rating>5</rating>
+            <votes>0</votes>
+            <spoiler_flag>false</spoiler_flag>
+            <spoilers_state>none</spoilers_state>
+
+
+            <shelves>
+                <shelf name="read" exclusive="true" id="7955080" review_shelf_id= ""/>
+
+                <shelf exclusive='false' id='45282281' name='programming' review_shelf_id='2016092633' sortable='false'></shelf>
+
+            </shelves>
+
+            <recommended_for></recommended_for>
+            <recommended_by></recommended_by>
+            <started_at>Sun Apr 22 19:11:54 -0700 2018</started_at>
+            <read_at>Sun Apr 22 19:11:57 -0700 2018</read_at>
+            <date_added>Sun Apr 22 19:11:52 -0700 2018</date_added>
+            <date_updated>Sun Apr 22 19:18:54 -0700 2018</date_updated>
+            <read_count>2</read_count>
+            <body>
+                <![CDATA[Fantastic book, once this book was a source of great ideas, now it's now answers the question why we use ____ best practice. ]]>
+            </body>
+
+
+
+            <comments_count>0</comments_count>
+            <url><![CDATA[https://www.goodreads.com/review/show/2369938520]]></url>
+            <link><![CDATA[https://www.goodreads.com/review/show/2369938520]]></link>
+            <owned>0</owned>
+        </review>
+
+        <review>
+            <id>2368466112</id>
+            <book>
+                <id type="integer">18844256</id>
+                <isbn>1469769174</isbn>
+                <isbn13>9781469769172</isbn13>
+                <text_reviews_count type="integer">7</text_reviews_count>
+                <uri>kca://book/amzn1.gr.book.v1.RGG1TSAg6ETPnK1jMu-QaQ</uri>
+                <title>The Way to Go: A Thorough Introduction to the Go Programming Language</title>
+                <title_without_series>The Way to Go: A Thorough Introduction to the Go Programming Language</title_without_series>
+                <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                <large_image_url/>
+                <link>https://www.goodreads.com/book/show/18844256-the-way-to-go</link>
+                <num_pages></num_pages>
+                <format>ebook</format>
+                <edition_information/>
+                <publisher>iUniverse</publisher>
+                <publication_day>7</publication_day>
+                <publication_year>2012</publication_year>
+                <publication_month>3</publication_month>
+                <average_rating>3.55</average_rating>
+                <ratings_count>95</ratings_count>
+                <description>This book provides the reader with a comprehensive overview of the new open source programming language Go (in its first stable and maintained release Go 1) from Google.&lt;br /&gt;&lt;br /&gt;The language is devised with Java / C#-like syntax so as to feel familiar to the bulk of programmers today, but Go code is much cleaner and simpler to read, thus increasing the productivity of developers.&lt;br /&gt;&lt;br /&gt;You will see how Go: simplifies programming with slices, maps, structs and interfaces&lt;br /&gt; incorporates functional programming&lt;br /&gt; makes error-handling easy and secure&lt;br /&gt; simplifies concurrent and parallel programming with goroutines and channels&lt;br /&gt;&lt;br /&gt;And you will learn how to: make use of Go's excellent standard library&lt;br /&gt; program Go the idiomatic way using patterns and best practices in over 225 working examples and 135 exercises&lt;br /&gt;&lt;br /&gt;This book focuses on the aspects that the reader needs to take part in the coming software revolution using Go. "</description>
+                <authors>
+                    <author>
+                        <id>5780565</id>
+                        <name>Ivo Balbaert</name>
+                        <role></role>
+                        <image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+                        </image_url>
+                        <small_image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+                        </small_image_url>
+                        <link><![CDATA[https://www.goodreads.com/author/show/5780565.Ivo_Balbaert]]></link>
+                        <average_rating>3.53</average_rating>
+                        <ratings_count>218</ratings_count>
+                        <text_reviews_count>32</text_reviews_count>
+                    </author>
+                </authors>
+                <published>2012</published>
+                <work>  <id>26787012</id>
+                    <uri>kca://work/amzn1.gr.work.v1.ObdHhkAqaNl0fCcnmTwA8A</uri>
+                </work></book>
+
+
+            <rating>2</rating>
+            <votes>0</votes>
+            <spoiler_flag>false</spoiler_flag>
+            <spoilers_state>none</spoilers_state>
+
+
+            <shelves>
+                <shelf name="read" exclusive="true" id="7955080" review_shelf_id= ""/>
+
+                <shelf exclusive='false' id='45282281' name='programming' review_shelf_id='2014604651' sortable='false'></shelf>
+
+            </shelves>
+
+            <recommended_for></recommended_for>
+            <recommended_by></recommended_by>
+            <started_at></started_at>
+            <read_at></read_at>
+            <date_added>Sat Apr 21 09:44:50 -0700 2018</date_added>
+            <date_updated>Sat Apr 21 09:44:54 -0700 2018</date_updated>
+            <read_count>1</read_count>
+            <body>
+            </body>
+
+
+
+            <comments_count>0</comments_count>
+            <url><![CDATA[https://www.goodreads.com/review/show/2368466112]]></url>
+            <link><![CDATA[https://www.goodreads.com/review/show/2368466112]]></link>
+            <owned>0</owned>
+        </review>
+
+        <review>
+            <id>2367155182</id>
+            <book>
+                <id type="integer">13507787</id>
+                <isbn>0321721330</isbn>
+                <isbn13>9780321721334</isbn13>
+                <text_reviews_count type="integer">121</text_reviews_count>
+                <uri>kca://book/amzn1.gr.book.v1.67sFTyNdu5bNVLFurffBWg</uri>
+                <title>Practical Object Oriented Design in Ruby</title>
+                <title_without_series>Practical Object Oriented Design in Ruby</title_without_series>
+                <image_url>https://images.gr-assets.com/books/1358916543m/13507787.jpg</image_url>
+                <small_image_url>https://images.gr-assets.com/books/1358916543s/13507787.jpg</small_image_url>
+                <large_image_url/>
+                <link>https://www.goodreads.com/book/show/13507787-practical-object-oriented-design-in-ruby</link>
+                <num_pages>247</num_pages>
+                <format>Paperback</format>
+                <edition_information>1st edition</edition_information>
+                <publisher>Addison-Wesley Professional</publisher>
+                <publication_day>19</publication_day>
+                <publication_year>2012</publication_year>
+                <publication_month>8</publication_month>
+                <average_rating>4.55</average_rating>
+                <ratings_count>1873</ratings_count>
+                <description>&lt;b&gt;The Complete Guide to Writing More Maintainable, Manageable, Pleasing, and Powerful Ruby Applications&lt;/b&gt; Ruby's widely admired ease of use has a downside: Too many Ruby and Rails applications have been created without concern for their long-term maintenance or evolution. The Web is awash in Ruby code that is now virtually impossible to change or extend. This text helps you solve that problem by using powerful real-world object-oriented design techniques, which it thoroughly explains using simple and practical Ruby examples. Sandi Metz has distilled a lifetime of conversations and presentations about object-oriented design into a set of Ruby-focused practices for crafting manageable, extensible, and pleasing code. She shows you how to build new applications that can survive success and repair existing applications that have become impossible to change. Each technique is illustrated with extended examples, all downloadable from the companion Web site, poodr.info. The first title to focus squarely on object-oriented Ruby application design, &lt;b&gt; &lt;i&gt;Practical Object-Oriented Design in Ruby&lt;/i&gt; &lt;/b&gt; will guide you to superior outcomes, whatever your previous Ruby experience. Novice Ruby programmers will find specific rules to live by; intermediate Ruby programmers will find valuable principles they can flexibly interpret and apply; and advanced Ruby programmers will find a common language they can use to lead development and guide their colleagues. This guide will help you&lt;br /&gt;Understand how object-oriented programming can help you craft Ruby code that is easier to maintain and upgrade Decide what belongs in a single Ruby class Avoid entangling objects that should be kept separate Define flexible interfaces among objects Reduce programming overhead costs with duck typing Successfully apply inheritance Build objects via composition Design cost-effective tests Solve common problems associated with poorly designed Ruby code</description>
+                <authors>
+                    <author>
+                        <id>5763434</id>
+                        <name>Sandi Metz</name>
+                        <role></role>
+                        <image_url nophoto='false'>
+                            <![CDATA[https://images.gr-assets.com/authors/1521199098p5/5763434.jpg]]>
+                        </image_url>
+                        <small_image_url nophoto='false'>
+                            <![CDATA[https://images.gr-assets.com/authors/1521199098p2/5763434.jpg]]>
+                        </small_image_url>
+                        <link><![CDATA[https://www.goodreads.com/author/show/5763434.Sandi_Metz]]></link>
+                        <average_rating>4.55</average_rating>
+                        <ratings_count>2047</ratings_count>
+                        <text_reviews_count>162</text_reviews_count>
+                    </author>
+                </authors>
+                <published>2012</published>
+                <work>  <id>19059453</id>
+                    <uri>kca://work/amzn1.gr.work.v1._Q7HSHoV__RLiZYbG4-UpQ</uri>
+                </work></book>
+
+
+            <rating>5</rating>
+            <votes>0</votes>
+            <spoiler_flag>false</spoiler_flag>
+            <spoilers_state>none</spoilers_state>
+
+
+            <shelves>
+                <shelf name="read" exclusive="true" id="7955080" review_shelf_id= ""/>
+
+                <shelf exclusive='false' id='45282281' name='programming' review_shelf_id='2013280051' sortable='false'></shelf>
+
+            </shelves>
+
+            <recommended_for></recommended_for>
+            <recommended_by></recommended_by>
+            <started_at></started_at>
+            <read_at>Tue Apr 01 00:00:00 -0700 2014</read_at>
+            <date_added>Thu Apr 19 22:22:10 -0700 2018</date_added>
+            <date_updated>Thu Apr 19 22:24:16 -0700 2018</date_updated>
+            <read_count>1</read_count>
+            <body>
+                <![CDATA[Sandi's work really shows how to write OO code with ruby style]]>
+            </body>
+
+
+
+            <comments_count>0</comments_count>
+            <url><![CDATA[https://www.goodreads.com/review/show/2367155182]]></url>
+            <link><![CDATA[https://www.goodreads.com/review/show/2367155182]]></link>
+            <owned>0</owned>
+        </review>
+
+        <review>
+            <id>2079187377</id>
+            <book>
+                <id type="integer">33977164</id>
+                <isbn nil="true"/>
+                <isbn13 nil="true"/>
+                <text_reviews_count type="integer">1</text_reviews_count>
+                <uri>kca://book/amzn1.gr.book.v1.to5tlAsc52kjyhc5geRxFg</uri>
+                <title>Developing an Angular 2 Edge</title>
+                <title_without_series>Developing an Angular 2 Edge</title_without_series>
+                <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                <large_image_url/>
+                <link>https://www.goodreads.com/book/show/33977164-developing-an-angular-2-edge</link>
+                <num_pages></num_pages>
+                <format></format>
+                <edition_information/>
+                <publisher></publisher>
+                <publication_day></publication_day>
+                <publication_year></publication_year>
+                <publication_month></publication_month>
+                <average_rating>4.00</average_rating>
+                <ratings_count>2</ratings_count>
+                <description></description>
+                <authors>
+                    <author>
+                        <id>16345347</id>
+                        <name>Filip Lauc</name>
+                        <role></role>
+                        <image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+                        </image_url>
+                        <small_image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+                        </small_image_url>
+                        <link><![CDATA[https://www.goodreads.com/author/show/16345347.Filip_Lauc]]></link>
+                        <average_rating>4.00</average_rating>
+                        <ratings_count>2</ratings_count>
+                        <text_reviews_count>1</text_reviews_count>
+                    </author>
+                </authors>
+                <published></published>
+                <work>  <id>54966154</id>
+                    <uri>kca://work/amzn1.gr.work.v1.Gau5SJaONfqJbd94zXJJMA</uri>
+                </work></book>
+
+
+            <rating>5</rating>
+            <votes>0</votes>
+            <spoiler_flag>false</spoiler_flag>
+            <spoilers_state>none</spoilers_state>
+
+
+            <shelves>
+                <shelf name="read" exclusive="true" id="7955080" review_shelf_id= ""/>
+
+                <shelf exclusive='false' id='45282281' name='programming' review_shelf_id='1771817017' sortable='false'></shelf>
+
+            </shelves>
+
+            <recommended_for></recommended_for>
+            <recommended_by></recommended_by>
+            <started_at>Wed Mar 01 00:00:00 -0800 2017</started_at>
+            <read_at>Sat Apr 01 00:00:00 -0700 2017</read_at>
+            <date_added>Tue Aug 01 13:35:16 -0700 2017</date_added>
+            <date_updated>Sun Sep 10 19:44:54 -0700 2017</date_updated>
+            <read_count>2</read_count>
+            <body>
+                <![CDATA[Loved this book got be rolling on Angular 2 super quick.<br />]]>
+            </body>
+
+
+
+            <comments_count>0</comments_count>
+            <url><![CDATA[https://www.goodreads.com/review/show/2079187377]]></url>
+            <link><![CDATA[https://www.goodreads.com/review/show/2079187377]]></link>
+            <owned>0</owned>
+        </review>
+
+        <review>
+            <id>2079186129</id>
+            <book>
+                <id type="integer">4053977</id>
+                <isbn>1934356204</isbn>
+                <isbn13>9781934356203</isbn13>
+                <text_reviews_count type="integer">2</text_reviews_count>
+                <uri>kca://book/amzn1.gr.book.v1.S0Nvtnp8Veg-8wvBm0HYSg</uri>
+                <title>Rails for .NET Developers</title>
+                <title_without_series>Rails for .NET Developers</title_without_series>
+                <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                <large_image_url/>
+                <link>https://www.goodreads.com/book/show/4053977-rails-for-net-developers</link>
+                <num_pages>277</num_pages>
+                <format>Paperback</format>
+                <edition_information/>
+                <publisher>Pragmatic Bookshelf</publisher>
+                <publication_day>5</publication_day>
+                <publication_year>2008</publication_year>
+                <publication_month>12</publication_month>
+                <average_rating>3.36</average_rating>
+                <ratings_count>14</ratings_count>
+                <description>Learning a new language and a new framework can be daunting. What you need is a guide to help leverage your existing knowledge and skills, and show you just what you need to know to get up and running with a new system quickly.&lt;br /&gt;&lt;br /&gt; You're already a .NET developer; we'll help you get up and running as a Ruby on Rails developer on any operating system: Windows, Mac, or Linux. We start with a gentle introduction to the object-oriented Ruby language with examples and direct comparisons to C#, so you'll quickly feel at home writing Ruby code for the first time.&lt;br /&gt;&lt;br /&gt; We then get to the heart of Rails development by showing how to tackle everyday tasks in Rails compared with typical ASP.NET implementations, with a tutorial focus. You'll build a sample airline reservation system using Rails, learning essential techniques along the way. You'll come to learn the joy and power inherent in the "convention over configuration" philosophy, the natural elegance of the MVC architecture, and the essence of REST-based design as you develop applications that accommodate web browsers, handheld devices, and even XML web service clients with unparalleled ease.&lt;br /&gt;&lt;br /&gt; Along the way, you'll see good agile development practices, explore test-driven development with Rails. You'll be prepared for real-world application deployment, and we'll give you a taste of how Ruby and Rails are reshaping the Microsoft application landscape, including a look at IronRuby.</description>
+                <authors>
+                    <author>
+                        <id>68098</id>
+                        <name>Jeff Cohen</name>
+                        <role></role>
+                        <image_url nophoto='false'>
+                            <![CDATA[https://images.gr-assets.com/authors/1430537737p5/68098.jpg]]>
+                        </image_url>
+                        <small_image_url nophoto='false'>
+                            <![CDATA[https://images.gr-assets.com/authors/1430537737p2/68098.jpg]]>
+                        </small_image_url>
+                        <link><![CDATA[https://www.goodreads.com/author/show/68098.Jeff_Cohen]]></link>
+                        <average_rating>3.79</average_rating>
+                        <ratings_count>1587</ratings_count>
+                        <text_reviews_count>348</text_reviews_count>
+                    </author>
+                </authors>
+                <published>2008</published>
+                <work>  <id>4100993</id>
+                    <uri>kca://work/amzn1.gr.work.v1.-QE0c091hEHyAtzULQ1UGw</uri>
+                </work></book>
+
+
+            <rating>3</rating>
+            <votes>0</votes>
+            <spoiler_flag>false</spoiler_flag>
+            <spoilers_state>none</spoilers_state>
+
+
+            <shelves>
+                <shelf name="read" exclusive="true" id="7955080" review_shelf_id= ""/>
+
+                <shelf exclusive='false' id='45282281' name='programming' review_shelf_id='1731978606' sortable='false'></shelf>
+
+            </shelves>
+
+            <recommended_for></recommended_for>
+            <recommended_by></recommended_by>
+            <started_at></started_at>
+            <read_at></read_at>
+            <date_added>Tue Aug 01 13:34:04 -0700 2017</date_added>
+            <date_updated>Tue Aug 01 13:34:16 -0700 2017</date_updated>
+            <read_count>1</read_count>
+            <body>
+            </body>
+
+
+
+            <comments_count>0</comments_count>
+            <url><![CDATA[https://www.goodreads.com/review/show/2079186129]]></url>
+            <link><![CDATA[https://www.goodreads.com/review/show/2079186129]]></link>
+            <owned>0</owned>
+        </review>
+
+        <review>
+            <id>1545280344</id>
+            <book>
+                <id type="integer">13418076</id>
+                <isbn nil="true"/>
+                <isbn13 nil="true"/>
+                <text_reviews_count type="integer">3</text_reviews_count>
+                <uri>kca://book/amzn1.gr.book.v1.OUSFmZEYxsOIDK6zdhIggg</uri>
+                <title>Deploying Rails: Automate, Deploy, Scale, Maintain, and Sleep at Night</title>
+                <title_without_series>Deploying Rails: Automate, Deploy, Scale, Maintain, and Sleep at Night</title_without_series>
+                <image_url>https://images.gr-assets.com/books/1326987672m/13418076.jpg</image_url>
+                <small_image_url>https://images.gr-assets.com/books/1326987672s/13418076.jpg</small_image_url>
+                <large_image_url/>
+                <link>https://www.goodreads.com/book/show/13418076-deploying-rails</link>
+                <num_pages></num_pages>
+                <format>ebook</format>
+                <edition_information/>
+                <publisher>The Pragmatic Programmers</publisher>
+                <publication_day/>
+                <publication_year>2012</publication_year>
+                <publication_month>7</publication_month>
+                <average_rating>3.44</average_rating>
+                <ratings_count>57</ratings_count>
+                <description></description>
+                <authors>
+                    <author>
+                        <id>170951</id>
+                        <name>Tom Copeland</name>
+                        <role></role>
+                        <image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+                        </image_url>
+                        <small_image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+                        </small_image_url>
+                        <link><![CDATA[https://www.goodreads.com/author/show/170951.Tom_Copeland]]></link>
+                        <average_rating>3.87</average_rating>
+                        <ratings_count>153</ratings_count>
+                        <text_reviews_count>11</text_reviews_count>
+                    </author>
+                </authors>
+                <published>2012</published>
+                <work>  <id>18755004</id>
+                    <uri>kca://work/amzn1.gr.work.v1.SahsKrDP9ZhIFOSK5bZTlw</uri>
+                </work></book>
+
+
+            <rating>5</rating>
+            <votes>0</votes>
+            <spoiler_flag>false</spoiler_flag>
+            <spoilers_state>none</spoilers_state>
+
+
+            <shelves>
+                <shelf name="read" exclusive="true" id="7955080" review_shelf_id= ""/>
+
+                <shelf exclusive='false' id='45282281' name='programming' review_shelf_id='1223238973' sortable='false'></shelf>
+
+            </shelves>
+
+            <recommended_for></recommended_for>
+            <recommended_by></recommended_by>
+            <started_at></started_at>
+            <read_at></read_at>
+            <date_added>Thu Feb 11 12:15:52 -0800 2016</date_added>
+            <date_updated>Thu Feb 11 12:18:23 -0800 2016</date_updated>
+            <read_count>1</read_count>
+            <body>
+                <![CDATA[Pushing out your first rails app can be pretty daunting, Deploying rails breaks down each step in the process, making it easy to under stand implement.<br /><br />]]>
+            </body>
+
+
+
+            <comments_count>0</comments_count>
+            <url><![CDATA[https://www.goodreads.com/review/show/1545280344]]></url>
+            <link><![CDATA[https://www.goodreads.com/review/show/1545280344]]></link>
+            <owned>0</owned>
+        </review>
+
+        <review>
+            <id>1544263639</id>
+            <book>
+                <id type="integer">15847933</id>
+                <isbn nil="true"/>
+                <isbn13 nil="true"/>
+                <text_reviews_count type="integer">19</text_reviews_count>
+                <uri>kca://book/amzn1.gr.book.v1.tLOOiHfDWD5HKrGksuEBIQ</uri>
+                <title>Confident Ruby</title>
+                <title_without_series>Confident Ruby</title_without_series>
+                <image_url>https://images.gr-assets.com/books/1398328834m/15847933.jpg</image_url>
+                <small_image_url>https://images.gr-assets.com/books/1398328834s/15847933.jpg</small_image_url>
+                <large_image_url/>
+                <link>https://www.goodreads.com/book/show/15847933-confident-ruby</link>
+                <num_pages>296</num_pages>
+                <format>ebook</format>
+                <edition_information/>
+                <publisher></publisher>
+                <publication_day>5</publication_day>
+                <publication_year>2012</publication_year>
+                <publication_month>6</publication_month>
+                <average_rating>4.38</average_rating>
+                <ratings_count>290</ratings_count>
+                <description></description>
+                <authors>
+                    <author>
+                        <id>4971702</id>
+                        <name>Avdi Grimm</name>
+                        <role></role>
+                        <image_url nophoto='false'>
+                            <![CDATA[https://images.gr-assets.com/authors/1442597806p5/4971702.jpg]]>
+                        </image_url>
+                        <small_image_url nophoto='false'>
+                            <![CDATA[https://images.gr-assets.com/authors/1442597806p2/4971702.jpg]]>
+                        </small_image_url>
+                        <link><![CDATA[https://www.goodreads.com/author/show/4971702.Avdi_Grimm]]></link>
+                        <average_rating>4.19</average_rating>
+                        <ratings_count>661</ratings_count>
+                        <text_reviews_count>53</text_reviews_count>
+                    </author>
+                </authors>
+                <published>2012</published>
+                <work>  <id>21593043</id>
+                    <uri>kca://work/amzn1.gr.work.v1.YERDCcC7xxuW-7UFaeDY1g</uri>
+                </work></book>
+
+
+            <rating>5</rating>
+            <votes>0</votes>
+            <spoiler_flag>false</spoiler_flag>
+            <spoilers_state>none</spoilers_state>
+
+
+            <shelves>
+                <shelf name="read" exclusive="true" id="7955080" review_shelf_id= ""/>
+
+                <shelf exclusive='false' id='45282281' name='programming' review_shelf_id='1222271801' sortable='false'></shelf>
+
+            </shelves>
+
+            <recommended_for></recommended_for>
+            <recommended_by></recommended_by>
+            <started_at></started_at>
+            <read_at>Sun Feb 01 00:00:00 -0800 2015</read_at>
+            <date_added>Wed Feb 10 13:41:04 -0800 2016</date_added>
+            <date_updated>Wed Feb 10 13:41:33 -0800 2016</date_updated>
+            <read_count>1</read_count>
+            <body>
+            </body>
+
+
+
+            <comments_count>0</comments_count>
+            <url><![CDATA[https://www.goodreads.com/review/show/1544263639]]></url>
+            <link><![CDATA[https://www.goodreads.com/review/show/1544263639]]></link>
+            <owned>0</owned>
+        </review>
+
+        <review>
+            <id>736916337</id>
+            <book>
+                <id type="integer">15769821</id>
+                <isbn nil="true"/>
+                <isbn13>9781449326333</isbn13>
+                <text_reviews_count type="integer">8</text_reviews_count>
+                <uri>kca://book/amzn1.gr.book.v1.bfHKYgG2_hWQ-x9YpjsYJg</uri>
+                <title>PostgreSQL: Up and Running</title>
+                <title_without_series>PostgreSQL: Up and Running</title_without_series>
+                <image_url>https://images.gr-assets.com/books/1343236861m/15769821.jpg</image_url>
+                <small_image_url>https://images.gr-assets.com/books/1343236861s/15769821.jpg</small_image_url>
+                <large_image_url/>
+                <link>https://www.goodreads.com/book/show/15769821-postgresql</link>
+                <num_pages>166</num_pages>
+                <format>Paperback</format>
+                <edition_information>1st Edition</edition_information>
+                <publisher>O'Reilly Media, Inc.</publisher>
+                <publication_day>10</publication_day>
+                <publication_year>2012</publication_year>
+                <publication_month>7</publication_month>
+                <average_rating>3.85</average_rating>
+                <ratings_count>103</ratings_count>
+                <description>If you’re thinking about migrating to the PostgreSQL open source database system, this guide provides a concise overview to help you quickly understand and use PostgreSQL’s unique features. Not only will you learn about the enterprise class features in the 9.2 release, you’ll also discover that PostgeSQL is more than just a database system—it’s also an impressive application platform.&lt;br /&gt;&lt;br /&gt;With numerous examples throughout this book, you’ll learn how to achieve tasks that are difficult or impossible in other databases. If you’re an existing PostgreSQL user, you’ll pick up gems you may have missed along the way.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Learn basic administration tasks, such as role management, database creation, backup, and restore&lt;br /&gt;Apply the psql command-line utility and the pgAdmin graphical administration tool&lt;br /&gt;Explore PostgreSQL tables, constraints, and indexes&lt;br /&gt;Learn powerful SQL constructs not generally found in other databases&lt;br /&gt;Use several different languages to write database functions&lt;br /&gt;Tune your queries to run as fast as your hardware will allow&lt;br /&gt;Query external and variegated data sources with Foreign Data Wrappers&lt;br /&gt;Learn how to replicate data, using built-in replication features</description>
+                <authors>
+                    <author>
+                        <id>5054892</id>
+                        <name>Regina O. Obe</name>
+                        <role></role>
+                        <image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+                        </image_url>
+                        <small_image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+                        </small_image_url>
+                        <link><![CDATA[https://www.goodreads.com/author/show/5054892.Regina_O_Obe]]></link>
+                        <average_rating>3.91</average_rating>
+                        <ratings_count>109</ratings_count>
+                        <text_reviews_count>13</text_reviews_count>
+                    </author>
+                </authors>
+                <published>2012</published>
+                <work>  <id>21476966</id>
+                    <uri>kca://work/amzn1.gr.work.v1.uYlbrTqjF-i86xx_nvKf0g</uri>
+                </work></book>
+
+
+            <rating>5</rating>
+            <votes>0</votes>
+            <spoiler_flag>false</spoiler_flag>
+            <spoilers_state>none</spoilers_state>
+
+
+            <shelves>
+                <shelf name="read" exclusive="true" id="7955080" review_shelf_id= ""/>
+
+                <shelf exclusive='false' id='45282281' name='programming' review_shelf_id='527358850' sortable='false'></shelf>
+
+            </shelves>
+
+            <recommended_for></recommended_for>
+            <recommended_by></recommended_by>
+            <started_at></started_at>
+            <read_at></read_at>
+            <date_added>Tue Oct 08 08:47:30 -0700 2013</date_added>
+            <date_updated>Tue Oct 08 08:47:43 -0700 2013</date_updated>
+            <read_count>1</read_count>
+            <body>
+            </body>
+
+
+
+            <comments_count>0</comments_count>
+            <url><![CDATA[https://www.goodreads.com/review/show/736916337]]></url>
+            <link><![CDATA[https://www.goodreads.com/review/show/736916337]]></link>
+            <owned>0</owned>
+        </review>
+
+        <review>
+            <id>444111042</id>
+            <book>
+                <id type="integer">7355981</id>
+                <isbn>0470548657</isbn>
+                <isbn13>9780470548653</isbn13>
+                <text_reviews_count type="integer">0</text_reviews_count>
+                <uri>kca://book/amzn1.gr.book.v1.u3IwREKXt7v6zCCJyXSHEw</uri>
+                <title>Professional Visual Studio 2010</title>
+                <title_without_series>Professional Visual Studio 2010</title_without_series>
+                <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                <large_image_url/>
+                <link>https://www.goodreads.com/book/show/7355981-professional-visual-studio-2010</link>
+                <num_pages>1177</num_pages>
+                <format>Paperback</format>
+                <edition_information/>
+                <publisher>Wrox Press</publisher>
+                <publication_day>3</publication_day>
+                <publication_year>2010</publication_year>
+                <publication_month>5</publication_month>
+                <average_rating>3.68</average_rating>
+                <ratings_count>31</ratings_count>
+                <description>&lt;b&gt;A must-have guide that covers all the new features of Visual Studio 2010&lt;/b&gt; Visual Studio allows you to create and manage programming projects for the Windows platform, and the new 2010 version has undergone a major overhaul comprised of significant changes. Written by an author team of veteran programmers and developers, &lt;i&gt;Professional Visual Studio 2010&lt;/i&gt; gets you quickly up to speed on what you can expect from the newest version of Visual Studio.&lt;br /&gt;&lt;br /&gt;This book's first section is dedicated to familiarizing you with the core aspects of Visual Studio 2010. Everything you need is contained in the first five chapters, from the IDE structure and layout to the various options and settings you can change to make the user interface synchronize with your own way of doing things.&lt;br /&gt;&lt;br /&gt;From there, the remainder of the book is broken into 11 parts:&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Getting Started: &lt;/b&gt; In this part, you learn how to take control of your projects and organize them in ways that work with your own style.&lt;br /&gt;&lt;b&gt;Digging Deeper: &lt;/b&gt; Though the many graphical components of Visual Studio that make a programmer's job easier are discussed in many places throughout this book, you often need help when you're in the process of actually writing code. This part deals with features that support the coding of applications such as IntelliSense, code refactoring, and creating and running unit tests In the latest version of the .NET framework, enhancements were added to support dynamic languages and move towards feature parity between the two primary .NET languages, C# and VB. This part covers changes to these languages, as well as looking at a range of features that will help you write better and more consistent code.&lt;br /&gt;&lt;b&gt;Rich Client&lt;/b&gt; and&lt;b&gt; Web Applications: &lt;/b&gt; For support building everything from Office add-ins to cloud applications, Visual Studio enables you to develop applications for a wide range of platforms. These two parts cover the application platforms that are supported within Visual Studio 2010, including ASP.NET and Office, WPF, Silverlight 2 and ASP.NET MVC.&lt;br /&gt;&lt;b&gt;Data: &lt;/b&gt; A large proportion of applications use some form of data storage. Visual Studio 2010 and the .NET Framework include strong support for working with databases and other data sources. This part examines how to use DataSets, the Visual Database Tools, LINQ, Synchronization Services and ADO.NET Entity Framework to build applications that work with data. It also shows you how you can then present this data using Reporting.&lt;br /&gt;&lt;b&gt;Application Services: &lt;/b&gt;Through the course of building an application you are likely to require access to services that may or may not reside within your organization. This part covers core technologies such as WCF, WF, Synchronization Services and WCF RIA services that you can use to connect to these services.&lt;br /&gt;&lt;b&gt;Configuration and Internationalization: &lt;/b&gt; The built-in support for configuration files allows you to adjust the way an application functions on the fly without having to rebuild it. Furthermore, resource files can be used to both access static data and easily localize an application into foreign languages and cultures. This part of the book shows how to use .NET configuration and resource files.&lt;br /&gt;&lt;b&gt;Debugging: &lt;/b&gt; Application debugging is one of the more challenging tasks developers have to tackle, but correct use of the Visual Studio 2010 debugging features will help you analyze the state of the application and determine the cause of any bugs. This part examines the rich debugging support provided by the IDE.&lt;br /&gt;&lt;b&gt;Build and Deployment: &lt;/b&gt; In addition to discussing how to build your solutions effectively and getting applications into the hands of your end users, this part also deals with the process of upgrading your projects from previous versions.&lt;br /&gt;&lt;b&gt;Customizing and Extending Visual Studio: &lt;/b&gt; If the functionality found in the previous part isn't enough to help you in your coding efforts, Microsoft has made Visual Studio 2010 even more extensible. This part covers the automation model, how to write add-ins and macros, and then how to use a new extensibility framework, MEF, to extend Visual Studio 2010.&lt;br /&gt;&lt;b&gt;Visual Studio Ultimate: &lt;/b&gt; The final part of the book examines the additional features only available in the Premium and Ultimate versions of Visual Studio 2010. In addition, you'll also learn how the Team Foundation Server provides an essential tool for managing software projects. Though this breakdown of the Visual Studio feature set provides the most logical and easily understood set of topics, you may need to look for specific functions that will aid you in a particular activity. To address this need, references to appropriate chapters are provided whenever a feature is covered in more detail elsewhere in the book.&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Professional Visual Studio 2010 &lt;/i&gt;is for all developers new to Visual Studio as well as those programmers who have some experience but want to learn about features they may have previously overlooked.&lt;br /&gt;&lt;br /&gt;If you are familiar with the way previous versions of Visual Studio worked, you may want to skim over Part I, which deals with the basic constructs that make up the user interface, and move on to the remainder of the book where the new features found in Visual Studio 2010 are discussed in detail. While you may be familiar with most of Part I, it is worth reading this section in case there are features of Visual Studio 2010 that you haven't seen or used before.&lt;br /&gt;&lt;br /&gt;If you're just starting out, you'll greatly benefit from the first part, where basic concepts are explained and you're introduced to the user interface and how to customize it to suit your own style.</description>
+                <authors>
+                    <author>
+                        <id>76000</id>
+                        <name>Nick Randolph</name>
+                        <role></role>
+                        <image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+                        </image_url>
+                        <small_image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+                        </small_image_url>
+                        <link><![CDATA[https://www.goodreads.com/author/show/76000.Nick_Randolph]]></link>
+                        <average_rating>3.84</average_rating>
+                        <ratings_count>69</ratings_count>
+                        <text_reviews_count>5</text_reviews_count>
+                    </author>
+                </authors>
+                <published>2010</published>
+                <work>  <id>9132277</id>
+                    <uri>kca://work/amzn1.gr.work.v1.qzjQIf7PnJWB1Jwi1MPW1w</uri>
+                </work></book>
+
+
+            <rating>4</rating>
+            <votes>0</votes>
+            <spoiler_flag>false</spoiler_flag>
+            <spoilers_state>none</spoilers_state>
+
+
+            <shelves>
+                <shelf name="read" exclusive="true" id="7955080" review_shelf_id= ""/>
+
+                <shelf exclusive='false' id='45282281' name='programming' review_shelf_id='294161607' sortable='false'></shelf>
+
+            </shelves>
+
+            <recommended_for></recommended_for>
+            <recommended_by></recommended_by>
+            <started_at></started_at>
+            <read_at></read_at>
+            <date_added>Mon Oct 29 09:18:53 -0700 2012</date_added>
+            <date_updated>Mon Oct 29 09:18:53 -0700 2012</date_updated>
+            <read_count>1</read_count>
+            <body>
+            </body>
+
+
+
+            <comments_count>0</comments_count>
+            <url><![CDATA[https://www.goodreads.com/review/show/444111042]]></url>
+            <link><![CDATA[https://www.goodreads.com/review/show/444111042]]></link>
+            <owned>0</owned>
+        </review>
+
+        <review>
+            <id>444109752</id>
+            <book>
+                <id type="integer">8017554</id>
+                <isbn>0321601661</isbn>
+                <isbn13>9780321601667</isbn13>
+                <text_reviews_count type="integer">13</text_reviews_count>
+                <uri>kca://book/amzn1.gr.book.v1.SkWm6FCzguyJnzCWCZamnQ</uri>
+                <title>The Rails 3 Way</title>
+                <title_without_series>The Rails 3 Way</title_without_series>
+                <image_url>https://images.gr-assets.com/books/1301061482m/8017554.jpg</image_url>
+                <small_image_url>https://images.gr-assets.com/books/1301061482s/8017554.jpg</small_image_url>
+                <large_image_url/>
+                <link>https://www.goodreads.com/book/show/8017554-the-rails-3-way</link>
+                <num_pages>708</num_pages>
+                <format>Paperback</format>
+                <edition_information/>
+                <publisher>Addison-Wesley Professional</publisher>
+                <publication_day>20</publication_day>
+                <publication_year>2010</publication_year>
+                <publication_month>12</publication_month>
+                <average_rating>3.91</average_rating>
+                <ratings_count>264</ratings_count>
+                <description>"The Rails(TM) 3 Way" is a comprehensive resource that digs into the new features in Rails 3 and perhaps more importantly, the rationale behind them.&lt;br /&gt;--Yehuda Katz, Rails Core &lt;br /&gt;The Bible for Ruby on Rails Application Development Ruby on Rails strips complexity from the development process, enabling professional developers to focus on what matters most: delivering business value via clean and maintainable code. "The Rails(TM) 3 Way"is the only comprehensive, authoritative guide to delivering production-quality code with Rails 3. Pioneering Rails expert Obie Fernandez and a team of leading experts illuminate the entire Rails 3 API, along with the idioms, design approaches, and libraries that make developing applications with Rails so powerful. Drawing on their unsurpassed experience and track record, they address the real challenges development teams face, showing how to use Rails 3 to maximize your productivity. Using numerous detailed code examples, the author systematically covers Rails 3 key capabilities and subsystems, making this book a reference that you will turn to again and again. He presents advanced Rails programming techniques that have been proven effective in day-to-day usage on dozens of production Rails systems and offers important insights into behavior-driven development and production considerations such as scalability. Dive deep into the Rails 3 codebase and discover why Rails is designed the way it is--and how to make it do what you want it to do.&lt;br /&gt;This book will help youLearn what's new in Rails 3 Increase your productivity as a web application developer Realize the overall joy in programming with Rails Leverage Rails' powerful capabilities for building REST-compliant APIs Drive implementation and protect long-term maintainability using RSpec Design and manipulate your domain layer using Active Record Understand and program complex program flows using Action Controller Master sophisticated URL routing concepts Use Ajax techniques via Rails 3 support for unobtrusive JavaScript Learn to extend Rails with popular gems and plugins, and how to write your own Extend Rails with the best third-party plug-ins and write your own Integrate email services into your applications with Action Mailer Improve application responsiveness with background processing Create your own non-Active Record domain classes using Active Model Master Rails' utility classes and extensions in Active Support</description>
+                <authors>
+                    <author>
+                        <id>192580</id>
+                        <name>Obie Fernandez</name>
+                        <role></role>
+                        <image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+                        </image_url>
+                        <small_image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+                        </small_image_url>
+                        <link><![CDATA[https://www.goodreads.com/author/show/192580.Obie_Fernandez]]></link>
+                        <average_rating>3.93</average_rating>
+                        <ratings_count>812</ratings_count>
+                        <text_reviews_count>55</text_reviews_count>
+                    </author>
+                </authors>
+                <published>2010</published>
+                <work>  <id>12583489</id>
+                    <uri>kca://work/amzn1.gr.work.v1.jZ1aK3dhIhMhf80kpKz76A</uri>
+                </work></book>
+
+
+            <rating>4</rating>
+            <votes>0</votes>
+            <spoiler_flag>false</spoiler_flag>
+            <spoilers_state>none</spoilers_state>
+
+
+            <shelves>
+                <shelf name="read" exclusive="true" id="7955080" review_shelf_id= ""/>
+
+                <shelf exclusive='false' id='45282281' name='programming' review_shelf_id='294160480' sortable='false'></shelf>
+
+            </shelves>
+
+            <recommended_for></recommended_for>
+            <recommended_by></recommended_by>
+            <started_at></started_at>
+            <read_at></read_at>
+            <date_added>Mon Oct 29 09:16:17 -0700 2012</date_added>
+            <date_updated>Mon Oct 29 09:18:10 -0700 2012</date_updated>
+            <read_count>1</read_count>
+            <body>
+            </body>
+
+
+
+            <comments_count>0</comments_count>
+            <url><![CDATA[https://www.goodreads.com/review/show/444109752]]></url>
+            <link><![CDATA[https://www.goodreads.com/review/show/444109752]]></link>
+            <owned>0</owned>
+        </review>
+
+        <review>
+            <id>444108682</id>
+            <book>
+                <id type="integer">10284614</id>
+                <isbn>0137081073</isbn>
+                <isbn13>9780137081073</isbn13>
+                <text_reviews_count type="integer">275</text_reviews_count>
+                <uri>kca://book/amzn1.gr.book.v1.N9OZPch8Ump6VPlgXuLufQ</uri>
+                <title>The Clean Coder: A Code of Conduct for Professional Programmers</title>
+                <title_without_series>The Clean Coder: A Code of Conduct for Professional Programmers</title_without_series>
+                <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                <large_image_url/>
+                <link>https://www.goodreads.com/book/show/10284614-the-clean-coder</link>
+                <num_pages>210</num_pages>
+                <format>Paperback</format>
+                <edition_information/>
+                <publisher>Prentice Hall</publisher>
+                <publication_day>23</publication_day>
+                <publication_year>2011</publication_year>
+                <publication_month>5</publication_month>
+                <average_rating>4.27</average_rating>
+                <ratings_count>4004</ratings_count>
+                <description>Programmers who endure and succeed amidst swirling uncertainty and nonstop pressure share a common attribute: They care deeply about the practice of creating software. They treat it as a craft. They are professionals. In &lt;i&gt; &lt;b&gt;The Clean Coder: A Code of Conduct for Professional Programmers, &lt;/b&gt; &lt;/i&gt; legendary software expert Robert C. Martin introduces the disciplines, techniques, tools, and practices of true software craftsmanship. This book is packed with practical advice-about everything from estimating and coding to refactoring and testing. It covers much more than technique: It is about attitude. Martin shows how to approach software development with honor, self-respect, and pride; work well and work clean; communicate and estimate faithfully; face difficult decisions with clarity and honesty; and understand that deep knowledge comes with a responsibility to act. Readers will learn&lt;br /&gt;What it means to behave as a true software craftsman&lt;br /&gt;How to deal with conflict, tight schedules, and unreasonable managers&lt;br /&gt;How to get into the flow of coding, and get past writer's block&lt;br /&gt;How to handle unrelenting pressure and avoid burnout&lt;br /&gt;How to combine enduring attitudes with new development paradigms&lt;br /&gt;How to manage your time, and avoid blind alleys, marshes, bogs, and swamps&lt;br /&gt;How to foster environments where programmers and teams can thrive&lt;br /&gt;When to say "No"-and how to say it&lt;br /&gt;When to say "Yes"-and what yes really means Great software is something to marvel at: powerful, elegant, functional, a pleasure to work with as both a developer and as a user. Great software isn't written by machines. It is written by professionals with an unshakable commitment to craftsmanship. &lt;b&gt; &lt;i&gt;The Clean Coder&lt;/i&gt; &lt;/b&gt; will help you become one of them-and earn the pride and fulfillment that they alone possess.</description>
+                <authors>
+                    <author>
+                        <id>45372</id>
+                        <name>Robert C. Martin</name>
+                        <role></role>
+                        <image_url nophoto='false'>
+                            <![CDATA[https://images.gr-assets.com/authors/1490470967p5/45372.jpg]]>
+                        </image_url>
+                        <small_image_url nophoto='false'>
+                            <![CDATA[https://images.gr-assets.com/authors/1490470967p2/45372.jpg]]>
+                        </small_image_url>
+                        <link><![CDATA[https://www.goodreads.com/author/show/45372.Robert_C_Martin]]></link>
+                        <average_rating>4.33</average_rating>
+                        <ratings_count>15830</ratings_count>
+                        <text_reviews_count>1003</text_reviews_count>
+                    </author>
+                </authors>
+                <published>2011</published>
+                <work>  <id>15186027</id>
+                    <uri>kca://work/amzn1.gr.work.v1.RhyPQTrdI00DXKqF6KAmgw</uri>
+                </work></book>
+
+
+            <rating>3</rating>
+            <votes>0</votes>
+            <spoiler_flag>false</spoiler_flag>
+            <spoilers_state>none</spoilers_state>
+
+
+            <shelves>
+                <shelf name="read" exclusive="true" id="7955080" review_shelf_id= ""/>
+
+                <shelf exclusive='false' id='45282281' name='programming' review_shelf_id='294159520' sortable='false'></shelf>
+
+            </shelves>
+
+            <recommended_for></recommended_for>
+            <recommended_by></recommended_by>
+            <started_at></started_at>
+            <read_at></read_at>
+            <date_added>Mon Oct 29 09:14:08 -0700 2012</date_added>
+            <date_updated>Mon Oct 29 09:14:08 -0700 2012</date_updated>
+            <read_count>1</read_count>
+            <body>
+            </body>
+
+
+
+            <comments_count>0</comments_count>
+            <url><![CDATA[https://www.goodreads.com/review/show/444108682]]></url>
+            <link><![CDATA[https://www.goodreads.com/review/show/444108682]]></link>
+            <owned>0</owned>
+        </review>
+
+        <review>
+            <id>444108610</id>
+            <book>
+                <id type="integer">3735293</id>
+                <isbn>0132350882</isbn>
+                <isbn13>9780132350884</isbn13>
+                <text_reviews_count type="integer">539</text_reviews_count>
+                <uri>kca://book/amzn1.gr.book.v1.GBQCibGmd_2g4IzKmkaM-Q</uri>
+                <title>Clean Code: A Handbook of Agile Software Craftsmanship</title>
+                <title_without_series>Clean Code: A Handbook of Agile Software Craftsmanship</title_without_series>
+                <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                <large_image_url/>
+                <link>https://www.goodreads.com/book/show/3735293-clean-code</link>
+                <num_pages>434</num_pages>
+                <format>Paperback</format>
+                <edition_information/>
+                <publisher>Prentice Hall</publisher>
+                <publication_day>11</publication_day>
+                <publication_year>2008</publication_year>
+                <publication_month>8</publication_month>
+                <average_rating>4.38</average_rating>
+                <ratings_count>9377</ratings_count>
+                <description>Even bad code can function. But if code isn t clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code. But it doesn t have to be that way. &lt;br /&gt;Noted software expert Robert C. Martin presents a revolutionary paradigm with &lt;i&gt; &lt;b&gt;Clean Code: A Handbook of Agile Software Craftsmanship&lt;/b&gt; &lt;/i&gt;. Martin has teamed up with his colleagues from Object Mentor to distill their best agile practice of cleaning code on the fly into a book that will instill within you the values of a software craftsman and make you a better programmer but only if you work at it. &lt;br /&gt;What kind of work will you be doing? You ll be reading code lots of code. And you will be challenged to think about what s right about that code, and what s wrong with it. More importantly, you will be challenged to reassess your professional values and your commitment to your craft. &lt;br /&gt;&lt;i&gt; &lt;b&gt;Clean Code&lt;/b&gt; &lt;/i&gt; is divided into three parts. The first describes the principles, patterns, and practices of writing clean code. The second part consists of several case studies of increasing complexity. Each case study is an exercise in cleaning up code of transforming a code base that has some problems into one that is sound and efficient. The third part is the payoff: a single chapter containing a list of heuristics and smells gathered while creating the case studies. The result is a knowledge base that describes the way we think when we write, read, and clean code. &lt;br /&gt;Readers will come away from this book understanding&lt;br /&gt;&lt;br /&gt;How to tell the difference between good and bad code How to write good code and how to transform bad code into good code How to create good names, good functions, good objects, and good classes How to format code for maximum readability How to implement complete error handling without obscuring code logic How to unit test and practice test-driven development This book is a must for any developer, software engineer, project manager, team lead, or systems analyst with an interest in producing better code. &lt;br /&gt;"</description>
+                <authors>
+                    <author>
+                        <id>45372</id>
+                        <name>Robert C. Martin</name>
+                        <role></role>
+                        <image_url nophoto='false'>
+                            <![CDATA[https://images.gr-assets.com/authors/1490470967p5/45372.jpg]]>
+                        </image_url>
+                        <small_image_url nophoto='false'>
+                            <![CDATA[https://images.gr-assets.com/authors/1490470967p2/45372.jpg]]>
+                        </small_image_url>
+                        <link><![CDATA[https://www.goodreads.com/author/show/45372.Robert_C_Martin]]></link>
+                        <average_rating>4.33</average_rating>
+                        <ratings_count>15830</ratings_count>
+                        <text_reviews_count>1003</text_reviews_count>
+                    </author>
+                </authors>
+                <published>2008</published>
+                <work>  <id>3779106</id>
+                    <uri>kca://work/amzn1.gr.work.v1.5dmsSIrWlPwZnNu1Mfi7YQ</uri>
+                </work></book>
+
+
+            <rating>5</rating>
+            <votes>0</votes>
+            <spoiler_flag>false</spoiler_flag>
+            <spoilers_state>none</spoilers_state>
+
+
+            <shelves>
+                <shelf name="read" exclusive="true" id="7955080" review_shelf_id= ""/>
+
+                <shelf exclusive='false' id='45282281' name='programming' review_shelf_id='294159434' sortable='false'></shelf>
+
+            </shelves>
+
+            <recommended_for></recommended_for>
+            <recommended_by></recommended_by>
+            <started_at></started_at>
+            <read_at></read_at>
+            <date_added>Mon Oct 29 09:13:57 -0700 2012</date_added>
+            <date_updated>Mon Oct 29 09:14:02 -0700 2012</date_updated>
+            <read_count>1</read_count>
+            <body>
+            </body>
+
+
+
+            <comments_count>0</comments_count>
+            <url><![CDATA[https://www.goodreads.com/review/show/444108610]]></url>
+            <link><![CDATA[https://www.goodreads.com/review/show/444108610]]></link>
+            <owned>0</owned>
+        </review>
+
+        <review>
+            <id>444108196</id>
+            <book>
+                <id type="integer">2485075</id>
+                <isbn>0596516177</isbn>
+                <isbn13>9780596516178</isbn13>
+                <text_reviews_count type="integer">28</text_reviews_count>
+                <uri>kca://book/amzn1.gr.book.v1.4O4cDqjmYY8jIEb1znImhA</uri>
+                <title>The Ruby Programming Language</title>
+                <title_without_series>The Ruby Programming Language</title_without_series>
+                <image_url>https://images.gr-assets.com/books/1328834776m/2485075.jpg</image_url>
+                <small_image_url>https://images.gr-assets.com/books/1328834776s/2485075.jpg</small_image_url>
+                <large_image_url/>
+                <link>https://www.goodreads.com/book/show/2485075.The_Ruby_Programming_Language</link>
+                <num_pages>448</num_pages>
+                <format>Paperback</format>
+                <edition_information/>
+                <publisher>O'Reilly Media</publisher>
+                <publication_day>1</publication_day>
+                <publication_year>2008</publication_year>
+                <publication_month>2</publication_month>
+                <average_rating>4.01</average_rating>
+                <ratings_count>924</ratings_count>
+                <description>&lt;i&gt;The Ruby Programming Language&lt;/i&gt; is &lt;i&gt;the&lt;/i&gt; authoritative guide to Ruby and provides comprehensive coverage of versions 1.8 and 1.9 of the language. It was written (and illustrated!) by an all-star team:&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;David Flanagan, bestselling author of programming language "bibles" (including &lt;i&gt;JavaScript: The Definitive Guide&lt;/i&gt; and &lt;i&gt;Java in a Nutshell&lt;/i&gt;) and committer to the Ruby Subversion repository.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Yukihiro "Matz" Matsumoto, creator, designer and lead developer of Ruby and author of &lt;i&gt;Ruby in a Nutshell&lt;/i&gt;, which has been expanded and revised to become this book.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;why the lucky stiff, artist and Ruby programmer extraordinaire. This book begins with a quick-start tutorial to the language, and then explains the language in detail from the bottom up: from lexical and syntactic structure to datatypes to expressions and statements and on through methods, blocks, lambdas, closures, classes and modules.&lt;br /&gt;&lt;br /&gt; The book also includes a long and thorough introduction to the rich API of the Ruby platform, demonstrating -- with heavily-commented example code -- Ruby's facilities for text processing, numeric manipulation, collections, input/output, networking, and concurrency. An entire chapter is devoted to Ruby's metaprogramming capabilities.&lt;br /&gt;&lt;br /&gt;&lt;i&gt;The Ruby Programming Language&lt;/i&gt; documents the Ruby language definitively but without the formality of a language specification. It is written for experienced programmers who are new to Ruby, and for current Ruby programmers who want to challenge their understanding and increase their mastery of the language.&lt;br /&gt;&lt;br /&gt;</description>
+                <authors>
+                    <author>
+                        <id>85682</id>
+                        <name>David Flanagan</name>
+                        <role></role>
+                        <image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+                        </image_url>
+                        <small_image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+                        </small_image_url>
+                        <link><![CDATA[https://www.goodreads.com/author/show/85682.David_Flanagan]]></link>
+                        <average_rating>3.95</average_rating>
+                        <ratings_count>4664</ratings_count>
+                        <text_reviews_count>162</text_reviews_count>
+                    </author>
+                </authors>
+                <published>2008</published>
+                <work>  <id>2492280</id>
+                    <uri>kca://work/amzn1.gr.work.v1.CD-Z9Flikm9S2R6ca1j8eA</uri>
+                </work></book>
+
+
+            <rating>4</rating>
+            <votes>0</votes>
+            <spoiler_flag>false</spoiler_flag>
+            <spoilers_state>none</spoilers_state>
+
+
+            <shelves>
+                <shelf name="read" exclusive="true" id="7955080" review_shelf_id= ""/>
+
+                <shelf exclusive='false' id='45282281' name='programming' review_shelf_id='294159072' sortable='false'></shelf>
+
+            </shelves>
+
+            <recommended_for></recommended_for>
+            <recommended_by></recommended_by>
+            <started_at></started_at>
+            <read_at></read_at>
+            <date_added>Mon Oct 29 09:13:10 -0700 2012</date_added>
+            <date_updated>Mon Oct 29 09:13:10 -0700 2012</date_updated>
+            <read_count>1</read_count>
+            <body>
+            </body>
+
+
+
+            <comments_count>0</comments_count>
+            <url><![CDATA[https://www.goodreads.com/review/show/444108196]]></url>
+            <link><![CDATA[https://www.goodreads.com/review/show/444108196]]></link>
+            <owned>0</owned>
+        </review>
+
+        <review>
+            <id>444107872</id>
+            <book>
+                <id type="integer">9765652</id>
+                <isbn>0132660067</isbn>
+                <isbn13>9780132660068</isbn13>
+                <text_reviews_count type="integer">14</text_reviews_count>
+                <uri>kca://book/amzn1.gr.book.v1.Izdv1tRth_JT0hwIoXrObQ</uri>
+                <title>Rails Antipatterns: Best Practice Ruby on Rails Refactoring</title>
+                <title_without_series>Rails Antipatterns: Best Practice Ruby on Rails Refactoring</title_without_series>
+                <image_url>https://images.gr-assets.com/books/1400891776m/9765652.jpg</image_url>
+                <small_image_url>https://images.gr-assets.com/books/1400891776s/9765652.jpg</small_image_url>
+                <large_image_url/>
+                <link>https://www.goodreads.com/book/show/9765652-rails-antipatterns</link>
+                <num_pages>341</num_pages>
+                <format>ebook</format>
+                <edition_information/>
+                <publisher>Addison-Wesley Professional</publisher>
+                <publication_day>9</publication_day>
+                <publication_year>2010</publication_year>
+                <publication_month>11</publication_month>
+                <average_rating>3.98</average_rating>
+                <ratings_count>250</ratings_count>
+                <description>&lt;b&gt;The Complete Guide to Avoiding and Fixing Common Rails 3 Code and Design Problems &lt;/b&gt;&lt;br /&gt;&lt;br /&gt;As developers worldwide have adopted the powerful Ruby on Rails web framework, many have fallen victim to common mistakes that reduce code quality, performance, reliability, stability, scalability, and maintainability. &lt;b&gt; &lt;i&gt;Rails(TM) AntiPatterns&lt;/i&gt; &lt;/b&gt;identifies these widespread Rails code and design problems, explains why they're bad and why they happen--and shows exactly what to do instead.&lt;br /&gt;&lt;br /&gt;The book is organized into concise, modular chapters--each outlines a single common AntiPattern and offers detailed, cookbook-style code solutions that were previously difficult or impossible to find. Leading Rails developers Chad Pytel and Tammer Saleh also offer specific guidance for refactoring existing bad code or design to reflect sound object-oriented principles and established Rails best practices. With their help, developers, architects, and testers can dramatically improve new and existing applications, avoid future problems, and establish superior Rails coding standards throughout their organizations.&lt;br /&gt;&lt;br /&gt;This book will help you understand, avoid, and solve problems with&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Model layer code, from general object-oriented programming violations to complex SQL and excessive redundancy Domain modeling, including schema and database issues such as normalization and serialization View layer tools and conventions Controller-layer code, including RESTful code Service-related APIs, including timeouts, exceptions, backgrounding, and response codes Third-party code, including plug-ins and gems Testing, from test suites to test-driven development processes Scaling and deployment Database issues, including migrations and validations System design for "graceful degradation" in the real world</description>
+                <authors>
+                    <author>
+                        <id>623120</id>
+                        <name>Chad Pytel</name>
+                        <role></role>
+                        <image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+                        </image_url>
+                        <small_image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+                        </small_image_url>
+                        <link><![CDATA[https://www.goodreads.com/author/show/623120.Chad_Pytel]]></link>
+                        <average_rating>3.98</average_rating>
+                        <ratings_count>250</ratings_count>
+                        <text_reviews_count>21</text_reviews_count>
+                    </author>
+                </authors>
+                <published>2010</published>
+                <work>  <id>14655178</id>
+                    <uri>kca://work/amzn1.gr.work.v1.km2wvBNeHUoQdB73afkgoA</uri>
+                </work></book>
+
+
+            <rating>3</rating>
+            <votes>0</votes>
+            <spoiler_flag>false</spoiler_flag>
+            <spoilers_state>none</spoilers_state>
+
+
+            <shelves>
+                <shelf name="read" exclusive="true" id="7955080" review_shelf_id= ""/>
+
+                <shelf exclusive='false' id='45282281' name='programming' review_shelf_id='294158808' sortable='false'></shelf>
+
+            </shelves>
+
+            <recommended_for></recommended_for>
+            <recommended_by></recommended_by>
+            <started_at></started_at>
+            <read_at></read_at>
+            <date_added>Mon Oct 29 09:12:35 -0700 2012</date_added>
+            <date_updated>Mon Oct 29 09:12:35 -0700 2012</date_updated>
+            <read_count>1</read_count>
+            <body>
+            </body>
+
+
+
+            <comments_count>0</comments_count>
+            <url><![CDATA[https://www.goodreads.com/review/show/444107872]]></url>
+            <link><![CDATA[https://www.goodreads.com/review/show/444107872]]></link>
+            <owned>0</owned>
+        </review>
+
+        <review>
+            <id>444107114</id>
+            <book>
+                <id type="integer">43764</id>
+                <isbn>0764584642</isbn>
+                <isbn13>9780764584640</isbn13>
+                <text_reviews_count type="integer">2</text_reviews_count>
+                <uri>kca://book/amzn1.gr.book.v1.HgTz08GzkHmB1EJjIbHIsQ</uri>
+                <title>ASP.NET 2.0 Website Programming: Problem - Design - Solution</title>
+                <title_without_series>ASP.NET 2.0 Website Programming: Problem - Design - Solution</title_without_series>
+                <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                <large_image_url/>
+                <link>https://www.goodreads.com/book/show/43764.ASP_NET_2_0_Website_Programming</link>
+                <num_pages>576</num_pages>
+                <format>Paperback</format>
+                <edition_information/>
+                <publisher>Wrox Press</publisher>
+                <publication_day>1</publication_day>
+                <publication_year>2006</publication_year>
+                <publication_month>3</publication_month>
+                <average_rating>3.73</average_rating>
+                <ratings_count>60</ratings_count>
+                <description>ASP.NET 2.0 Programming: Problem Design Solution is aimed at describing, designing, and implementing a site much like the ones you're probably working on or will be soon, while taking the opportunity to introduce and explain many of the new features that the new great ASP.NET 2.0 framework offers. Difficult problems are addressed head-on so you'll be ready for most of the problems you'll typically face when writing a modern website, and have one or more solutions ready for them. Unlike many other ASP.NET books that show examples for individual pages or features, the example in this book is an integrated end-to-end site (written in C#). The entire book and site has been written specifically for ASP.NET 2.0, to use the ASP.NET 2.0 features wherever they make sense.&lt;br /&gt;&lt;br /&gt;The end-result is a website which features a layout with user-selectable themes, a membership system, a content management system for publishing and syndicating articles and photos, polls, mailing lists, forums, an e-commerce store with support for real-time credit card processing, homepage personalization, and localization. The book leads the reader through development of a site with:&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Account registration, personalization and theming News and events, organized into categories Opinion polls Newsletter Forums E-commerce store with shopping cart and order management Localization Administration of a site will be covered including:&lt;br /&gt;Full online back-end administrative section, to manage practically all data from an intuitive user interface Site deployment In building these site features, you'll learn these new ASP.NET 2.0 features:&lt;br /&gt;Master pages Theming Personalization &amp;amp; Web parts Membership &amp;amp; Profile modules Personalization The new server-side UI controls such as GridView, DetailsView, FormView, Wizard, MultiView, the new xxxDataSource and navigation controls, among others. The new compilation mode and deployment modes The new framework for instrumenting the site, as well as handling &amp;amp; logging exceptions The new ADO.NET 2.0 features (e.g. caching with database dependency) The new classes for easy distributed transactions Management This book is also available as part of the 5-book ASP.NET 2.0 Wrox Box (ISBN: 0-470-11757-5). This 5-book set includes:&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Professional ASP.NET 2.0 Special Edition (ISBN: 0-470-04178-1) ASP.NET 2.0 Website Programming: Problem - Design - Solution (ISBN: 0764584642 ) Professional ASP.NET 2.0 Security, Membership, and Role Management (ISBN: 0764596985) Professional ASP.NET 2.0 Server Control and Component Development (ISBN: 0471793507) ASP.NET 2.0 MVP Hacks and Tips (ISBN: 0764597663) CD-ROM with more than 1000 pages of bonus chapters from 15 other .NET 2.0 and SQL Server(TM) 2005 Wrox books DVD with 180-day trial version of Microsoft(r) Visual Studio(r) 2005 Professional Edition</description>
+                <authors>
+                    <author>
+                        <id>24613</id>
+                        <name>Marco Bellinaso</name>
+                        <role></role>
+                        <image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+                        </image_url>
+                        <small_image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+                        </small_image_url>
+                        <link><![CDATA[https://www.goodreads.com/author/show/24613.Marco_Bellinaso]]></link>
+                        <average_rating>3.67</average_rating>
+                        <ratings_count>72</ratings_count>
+                        <text_reviews_count>2</text_reviews_count>
+                    </author>
+                </authors>
+                <published>2006</published>
+                <work>  <id>43176</id>
+                    <uri>kca://work/amzn1.gr.work.v1.svNaI29GNcJAVlwpAYjm_w</uri>
+                </work></book>
+
+
+            <rating>5</rating>
+            <votes>0</votes>
+            <spoiler_flag>false</spoiler_flag>
+            <spoilers_state>none</spoilers_state>
+
+
+            <shelves>
+                <shelf name="read" exclusive="true" id="7955080" review_shelf_id= ""/>
+
+                <shelf exclusive='false' id='45282281' name='programming' review_shelf_id='294158201' sortable='false'></shelf>
+
+            </shelves>
+
+            <recommended_for></recommended_for>
+            <recommended_by></recommended_by>
+            <started_at></started_at>
+            <read_at></read_at>
+            <date_added>Mon Oct 29 09:11:06 -0700 2012</date_added>
+            <date_updated>Mon Oct 29 09:11:06 -0700 2012</date_updated>
+            <read_count>1</read_count>
+            <body>
+            </body>
+
+
+
+            <comments_count>0</comments_count>
+            <url><![CDATA[https://www.goodreads.com/review/show/444107114]]></url>
+            <link><![CDATA[https://www.goodreads.com/review/show/444107114]]></link>
+            <owned>1</owned>
+        </review>
+
+        <review>
+            <id>444107006</id>
+            <book>
+                <id type="integer">4760706</id>
+                <isbn>0470384611</isbn>
+                <isbn13>9780470384619</isbn13>
+                <text_reviews_count type="integer">5</text_reviews_count>
+                <uri>kca://book/amzn1.gr.book.v1.5DxupcXlZNwHL9JOnsNDXA</uri>
+                <title>Professional ASP.Net MVC 1.0</title>
+                <title_without_series>Professional ASP.Net MVC 1.0</title_without_series>
+                <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                <large_image_url/>
+                <link>https://www.goodreads.com/book/show/4760706-professional-asp-net-mvc-1-0</link>
+                <num_pages>432</num_pages>
+                <format>Paperback</format>
+                <edition_information/>
+                <publisher>Wrox Press</publisher>
+                <publication_day>1</publication_day>
+                <publication_year>2009</publication_year>
+                <publication_month>5</publication_month>
+                <average_rating>3.79</average_rating>
+                <ratings_count>61</ratings_count>
+                <description>This book begins with you working along as Scott Guthrie builds a complete ASP.NET MVC reference application. He begins NerdDinner by using the File-&amp;gt;New Project menu command within Visual Studio to create a new ASP.NET MVC Application. You'll then incrementally add functionality and features. Along the way you'll cover how to create a database, build a model layer with business rule validations, implement listing/details data browsing, provide CRUD (Create, Update, Delete) data form entry support, implement efficient data paging, reuse UI using master pages and partials, secure the application using authentication and authorization, use AJAX to deliver dynamic updates and interactive map support, and implement automated unit testing. From there, the bulk of the rest of the book begins with the basic concepts around the model view controller pattern, including the little history and the state of the MVC on the web today. We'll then go into the ways that MVC is different from ASP.NET Web Forms. We'll explore the structure of a standard MVC application and see what you get out of the box. Next we dig deep into routing and see the role URLs play in your application. We'll deep dive into controllers and views and see what role the Ajax plays in your applications. The last third of the book focuses entirely on advanced techniques and extending the framework.&lt;br /&gt;&lt;br /&gt;In some places, we assume that you're somewhat familiar with ASP.NET WebForms, at least peripherally. There are a lot of ASP.NET WebForms developers out there who are interested in ASP.NET MVC so there are a number of places in this book where we contrast the two technologies. Even if you're not already an ASP.NET developer, you might still find these sections interesting for context, as well as for your own edification as ASP.NET MVC may not be the web technology that you're looking for.</description>
+                <authors>
+                    <author>
+                        <id>1982092</id>
+                        <name>Rob Conery</name>
+                        <role></role>
+                        <image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png]]>
+                        </image_url>
+                        <small_image_url nophoto='true'>
+                            <![CDATA[https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png]]>
+                        </small_image_url>
+                        <link><![CDATA[https://www.goodreads.com/author/show/1982092.Rob_Conery]]></link>
+                        <average_rating>3.91</average_rating>
+                        <ratings_count>157</ratings_count>
+                        <text_reviews_count>28</text_reviews_count>
+                    </author>
+                </authors>
+                <published>2009</published>
+                <work>  <id>4825503</id>
+                    <uri>kca://work/amzn1.gr.work.v1.OZkdOLyv1aKM7LFq1F-3Eg</uri>
+                </work></book>
+
+
+            <rating>5</rating>
+            <votes>0</votes>
+            <spoiler_flag>false</spoiler_flag>
+            <spoilers_state>none</spoilers_state>
+
+
+            <shelves>
+                <shelf name="read" exclusive="true" id="7955080" review_shelf_id= ""/>
+
+                <shelf exclusive='false' id='45282281' name='programming' review_shelf_id='294158117' sortable='false'></shelf>
+
+            </shelves>
+
+            <recommended_for></recommended_for>
+            <recommended_by></recommended_by>
+            <started_at></started_at>
+            <read_at></read_at>
+            <date_added>Mon Oct 29 09:10:53 -0700 2012</date_added>
+            <date_updated>Mon Oct 29 09:10:53 -0700 2012</date_updated>
+            <read_count>1</read_count>
+            <body>
+            </body>
+
+
+
+            <comments_count>0</comments_count>
+            <url><![CDATA[https://www.goodreads.com/review/show/444107006]]></url>
+            <link><![CDATA[https://www.goodreads.com/review/show/444107006]]></link>
+            <owned>0</owned>
+        </review>
+
+        <review>
+            <id>444106675</id>
+            <book>
+                <id type="integer">7121415</id>
+                <isbn>0735627045</isbn>
+                <isbn13>9780735627048</isbn13>
+                <text_reviews_count type="integer">29</text_reviews_count>
+                <uri>kca://book/amzn1.gr.book.v1.9gihHkF-AcvIqMpgeHU39Q</uri>
+                <title>CLR via C#</title>
+                <title_without_series>CLR via C#</title_without_series>
+                <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                <large_image_url/>
+                <link>https://www.goodreads.com/book/show/7121415-clr-via-c</link>
+                <num_pages>873</num_pages>
+                <format>Paperback</format>
+                <edition_information>Third Edition</edition_information>
+                <publisher>Microsoft Press</publisher>
+                <publication_day>14</publication_day>
+                <publication_year>2010</publication_year>
+                <publication_month>2</publication_month>
+                <average_rating>4.57</average_rating>
+                <ratings_count>815</ratings_count>
+                <description>Helps you to master the intricacies of the common language runtime (CLR) and the .NET Framework 4.0. This guide is suitable for developers building various kinds of application - including Microsoft[registered] ASP.NET, Windows[registered] Forms, Microsoft[registered] SQL Server[registered], Web services, and console applications.</description>
+                <authors>
+                    <author>
+                        <id>45039</id>
+                        <name>Jeffrey Richter</name>
+                        <role></role>
+                        <image_url nophoto='false'>
+                            <![CDATA[https://images.gr-assets.com/authors/1443701935p5/45039.jpg]]>
+                        </image_url>
+                        <small_image_url nophoto='false'>
+                            <![CDATA[https://images.gr-assets.com/authors/1443701935p2/45039.jpg]]>
+                        </small_image_url>
+                        <link><![CDATA[https://www.goodreads.com/author/show/45039.Jeffrey_Richter]]></link>
+                        <average_rating>4.47</average_rating>
+                        <ratings_count>1053</ratings_count>
+                        <text_reviews_count>64</text_reviews_count>
+                    </author>
+                </authors>
+                <published>2010</published>
+                <work>  <id>7382619</id>
+                    <uri>kca://work/amzn1.gr.work.v1.EPRfoxiIBkCtxLrayX--BA</uri>
+                </work></book>
+
+
+            <rating>5</rating>
+            <votes>0</votes>
+            <spoiler_flag>false</spoiler_flag>
+            <spoilers_state>none</spoilers_state>
+
+
+            <shelves>
+                <shelf name="read" exclusive="true" id="7955080" review_shelf_id= ""/>
+
+                <shelf exclusive='false' id='45282281' name='programming' review_shelf_id='294157863' sortable='false'></shelf>
+
+            </shelves>
+
+            <recommended_for></recommended_for>
+            <recommended_by></recommended_by>
+            <started_at></started_at>
+            <read_at></read_at>
+            <date_added>Mon Oct 29 09:10:11 -0700 2012</date_added>
+            <date_updated>Mon Oct 29 09:18:05 -0700 2012</date_updated>
+            <read_count>1</read_count>
+            <body>
+            </body>
+
+
+
+            <comments_count>0</comments_count>
+            <url><![CDATA[https://www.goodreads.com/review/show/444106675]]></url>
+            <link><![CDATA[https://www.goodreads.com/review/show/444106675]]></link>
+            <owned>0</owned>
+        </review>
+
+    </reviews>
+
+</GoodreadsResponse>

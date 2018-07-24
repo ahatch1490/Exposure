@@ -9,12 +9,12 @@ describe('CodeSchoolService', () => {
     });
   });
 
-  it('should be created', inject([CodeSchoolService], (service: CodeSchoolService) => {
-    expect(service).toBeTruthy();
-  }));
+  // it('should be created', inject([CodeSchoolService], (service: CodeSchoolService) => {
+  //   expect(service).toBeTruthy();
+  // }));
 
-  it('should return stuff', inject([CodeSchoolService], (service: CodeSchoolService) => {
-    console.log(service.GetCompletedCourses())
-    expect(service.GetCompletedCourses().subscribe(resp => {console.log(resp)}))
-  }));
+  // it('should return stuff', inject([CodeSchoolService], (service: CodeSchoolService) => {
+  //   console.log(service.GetCompletedCourses())
+  //   expect(service.GetCompletedCourses().subscribe(resp => {console.log(resp)}))
+  // }));
 });
