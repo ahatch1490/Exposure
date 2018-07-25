@@ -1,5 +1,4 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { GithubComponent } from './github.component';
 
 describe('GithubComponent', () => {
@@ -8,7 +7,7 @@ describe('GithubComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GithubComponent ]
+      declarations: [ GithubComponent ],
     })
     .compileComponents();
   }));

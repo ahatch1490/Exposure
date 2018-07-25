@@ -1,5 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import {MatCardModule,MatGridListModule} from '@angular/material'
+import {MatCardModule,MatGridListModule,MatDialogModule} from '@angular/material'
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { EducationComponent } from './education.component';
 
@@ -9,8 +9,8 @@ describe('EducationComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports:      [ MatCardModule,MatGridListModule,AngularFontAwesomeModule],
-      declarations: [EducationComponent ]
+      imports:      [ MatCardModule,MatGridListModule,AngularFontAwesomeModule,MatDialogModule],
+      declarations: [EducationComponent, ]
     
     })
     .compileComponents();
