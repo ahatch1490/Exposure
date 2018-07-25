@@ -11,6 +11,7 @@ describe('EducationComponent', () => {
     TestBed.configureTestingModule({
       imports:      [ MatCardModule,MatGridListModule,AngularFontAwesomeModule],
       declarations: [EducationComponent ]
+    
     })
     .compileComponents();
   }));

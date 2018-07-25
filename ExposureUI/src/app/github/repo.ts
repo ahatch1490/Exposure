@@ -1,6 +1,9 @@
 export class  Repo {
     id: string;
     name: string;
-    url: string; 
+    html_url: string; 
+    created_at: Date;
+    updated_at: Date; 
+
 
 } 

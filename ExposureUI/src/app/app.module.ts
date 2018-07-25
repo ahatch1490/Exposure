@@ -12,16 +12,20 @@ import {
   MatIconModule,
   MatButtonModule,
   MatExpansionModule,
+  MatDialogModule,
 } from '@angular/material';
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { StackOverflowComponent } from './stack-overflow/stack-overflow.component';
 import { RouterModule, Routes } from '@angular/router';
 import { GithubComponent } from './github/github.component';
 import { BioComponent } from './bio/bio.component';
-import { EducationComponent } from './education/education.component';
+import {EducationWWUDialog} from './education/education-wwu.dialog'
 import { BooksComponent } from './books/books.component';
 import { LinkedinComponent } from './linkedin/linkedin.component';
 import {FlexLayoutModule} from '@angular/flex-layout';
+import { EducationCodeSchoolDialog } from './education/education-cs.dialog';
+import { EducationComponent } from './education/education.component'
+import { EducationPSDialog } from './education/education-ps.dialog';
 const appRoutes: Routes = [
   {path: '',   redirectTo: '/bio', pathMatch: 'full' },
   {path: 'stack-overflow', component: StackOverflowComponent},
@@ -44,8 +48,9 @@ const appRoutes: Routes = [
     EducationComponent,
     BooksComponent,
     LinkedinComponent,
-    
-    
+    EducationWWUDialog,
+    EducationCodeSchoolDialog,
+    EducationPSDialog
   ],
   imports: [
     BrowserModule,
@@ -58,12 +63,18 @@ const appRoutes: Routes = [
     MatIconModule,
     MatButtonModule,
     MatExpansionModule,
+    MatDialogModule,
     AngularFontAwesomeModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
     )
     
+  ],
+  entryComponents: [
+    EducationWWUDialog,
+    EducationCodeSchoolDialog,
+    EducationPSDialog
   ],
   providers: [],
   bootstrap: [AppComponent]

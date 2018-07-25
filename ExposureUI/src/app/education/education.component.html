@@ -1,22 +1,20 @@
-<h2>Education</h2> 
-
-<mat-grid-list cols="2"  rowHeight:rowWidth="1:4"  >
-        <mat-grid-tile >
-            <mat-card>
-                    <img src="assets/education/wwu.png" style="height:90px;" >
-            </mat-card>
-        </mat-grid-tile>
-        <mat-grid-tile>
-            <mat-card>
-                <img src="assets/education/preview.svg" style="height:90px;" >
-            </mat-card>
-        </mat-grid-tile>
-        <mat-grid-tile>
-                <mat-card>
-                        <img src="assets/education/ps_logo.png" style="height:90px;" >
+<h2>Education</h2>
+<div fxLayout="row" fxLayout.xs="column" fxFlexFill>
+        <div fxFlex="33" item-width="100%">
+                <mat-card (click)="openWWUDialog()" >
+                        <img src="assets/education/wwu.png" style="height:90px;">
                 </mat-card>
-         </mat-grid-tile>
+        </div>
 
-</mat-grid-list>
+        <div fxFlex="33" item-width="100%">
+                <mat-card (click)="openCodeSchoolDialog()">
+                        <img src="assets/education/cod_camp_top.png" style="height:90px;">
+                </mat-card>
+        </div>
 
-
+        <div fxFlex="33" item-width="100%">
+                <mat-card (click)="openPSDialog()">
+                        <img src="assets/education/PS_logo_top.png" style="height:90px;">
+                </mat-card>
+        </div>
+</div>
