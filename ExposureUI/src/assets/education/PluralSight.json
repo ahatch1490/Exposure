@@ -1,0 +1,11 @@
+{"courses":[
+    {"title":"Webpack Fundamentals","badge":"/assets/education/pluralsight/webpack-icon-logo-svg-vector.svg"},
+    {"title":"Introduction to Grunt","badge":"/assets/education/pluralsight/grunt-logo-svg-vector.svg"},
+    {"title":"ASP.NET Core Fundamentals","badge":"/assets/education/pluralsight/netcore.svg"},
+    {"title":"Kotlin Fundamentals","badge":"/assets/education/pluralsight/kotlin-1-logo-svg-vector.svg"},
+    {"title":"Creating Your First Spring Boot Application","badge":"/assets/education/pluralsight/spring-3-logo-svg-vector.svg"},
+    {"title":"Gradle Fundamentals","badge":"/assets/education/pluralsight/gradle-logo-svg-vector.svg"},
+    {"title":"Angular 2: Getting Started","badge":"/assets/education/pluralsight/angular-icon-1-logo-svg-vector.svg"},
+    {"title":"Docker Deep Dive","badge":"/assets/education/pluralsight/docker-logo-svg-vector.svg"},
+    {"title":"Docker and Containers: The Big Picture","badge":"/assets/education/pluralsight/docker-logo-svg-vector.svg"}
+]}
