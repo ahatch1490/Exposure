@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
+import {MatGridListModule,MatListModule} from '@angular/material'
 import { CodeSchoolComponent } from './code-school.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 describe('CodeSchoolComponent', () => {
   let component: CodeSchoolComponent;
@@ -8,7 +10,9 @@ describe('CodeSchoolComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CodeSchoolComponent ]
+      declarations: [ CodeSchoolComponent ],
+      imports:      [ MatGridListModule,MatListModule,HttpClientModule],
+
     })
     .compileComponents();
   }));
