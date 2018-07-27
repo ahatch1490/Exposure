@@ -1,3 +1,10 @@
-<p>
-  code-school works!
-</p>
+
+<h3>Complted Courses</h3>
+
+
+  <mat-list>
+      <mat-list-item *ngFor="let course of courses">
+        <img matListAvatar src="{{course.badge}}" alt="...">
+        <h3 matLine> {{course.title}} </h3>
+      </mat-list-item>
+  </mat-list>

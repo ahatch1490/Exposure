@@ -7,7 +7,7 @@ import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { 
   MatGridListModule,
-  MatGridTile,
+  MatListModule,
   MatCardModule, 
   MatIconModule,
   MatButtonModule,
@@ -26,7 +26,9 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import { EducationCodeSchoolDialog } from './education/education-cs.dialog';
 import { EducationComponent } from './education/education.component'
 import { EducationPSDialog } from './education/education-ps.dialog';
-const appRoutes: Routes = [
+import { CodeSchoolComponent } from './code-school/code-school.component'
+import {CodeSchoolService} from './code-school.service'
+const appRoutes: Routes = [ 
   {path: '',   redirectTo: '/bio', pathMatch: 'full' },
   {path: 'stack-overflow', component: StackOverflowComponent},
   {path: 'bio', component: BioComponent },
@@ -50,7 +52,8 @@ const appRoutes: Routes = [
     LinkedinComponent,
     EducationWWUDialog,
     EducationCodeSchoolDialog,
-    EducationPSDialog
+    EducationPSDialog,
+    CodeSchoolComponent    
   ],
   imports: [
     BrowserModule,
@@ -64,6 +67,7 @@ const appRoutes: Routes = [
     MatButtonModule,
     MatExpansionModule,
     MatDialogModule,
+    MatListModule,
     AngularFontAwesomeModule,
     RouterModule.forRoot(
       appRoutes,

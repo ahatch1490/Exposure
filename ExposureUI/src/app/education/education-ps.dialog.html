@@ -1,7 +1,11 @@
 <h2 mat-dialog-title>Plural Site</h2>
 <mat-dialog-content>
-     Stuff goes here
-
+  <mat-list>
+      <mat-list-item *ngFor="let course of courses">
+        <img matListAvatar src="{{course.badge}}" alt="...">
+        <h3 matLine> {{course.title}} </h3>
+      </mat-list-item>
+  </mat-list>
 </mat-dialog-content>
 <mat-dialog-actions>
   <button mat-button mat-dialog-close>Close</button>
