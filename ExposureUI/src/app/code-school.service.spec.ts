@@ -15,7 +15,6 @@ describe('CodeSchoolService', () => {
   }));
 
   it('should return stuff', inject([CodeSchoolService], (service: CodeSchoolService) => {
-    console.log(service.GetCompletedCourses())
     expect(service.GetCompletedCourses().subscribe(resp => {console.log(resp)}))
   }));
 });

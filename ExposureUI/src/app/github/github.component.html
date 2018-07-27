@@ -1,3 +1,7 @@
-<p>
-  github works!
-</p>
+
+  <mat-list>
+      <mat-list-item *ngFor="let repo of spotLights">
+        <img matListAvatar src="assets/github/icons8-repository-24.png" alt="...">
+        <h3 matLine> {{repo.name}} </h3>
+      </mat-list-item>
+  </mat-list> 
