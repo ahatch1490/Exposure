@@ -9,15 +9,32 @@ import {GitHubService} from '../github-service'
 export class GithubComponent implements OnInit {
 
   constructor(private service: GitHubService ) { }
-   spotLights: any[];
+    spotlightList: ["","moxiworks-dotnet"];  
+    spotLights: any[];
+    repos: any;  
   ngOnInit() {
-    this.service.GetRepo('ahatch1490/moxiworks-dotnet').subscribe(
+    this.service.GetRepos('ahatch1490').subscribe(
       (data: any) => {
-        this.spotLights = []
-        console.log(data.body);
-        this.spotLights[0] = data.body;
+        this.repos = data.body;
       }
     )
   }
+
+  forked(isForked: boolean) :string {
+    let repo = "assets/github/icons8-repository-24.png" 
+    let fork = "assets/github/icons8-code-fork-24.png" 
+    console.log(isForked)
+    if (isForked ){
+      return fork;  
+    }
+    return repo;  
+    
+  }
+
+  viewRepo(url) :void {
+    console.log(url);
+    window.open(url,'_blank');
+  }
+
 
 }
