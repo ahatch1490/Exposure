@@ -20,7 +20,7 @@ namespace ExposureAPI.Resources.GoodReads
         [XmlElement("body")]
         public string Body
         {
-            get { return _body; };
+            get { return _body; }
             set { _body = WebUtility.HtmlDecode(value); }
         }
 
