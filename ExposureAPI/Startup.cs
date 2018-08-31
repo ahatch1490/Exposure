@@ -36,6 +36,7 @@ namespace ExposureAPI
             services.AddSingleton<IXMLClient, XMLClient>();
             services.AddSingleton<IGoodReadsService,GoodReadsService>();
             services.AddSingleton<SiteService, SiteService>();
+            services.AddSingleton<ContentSectionService, ContentSectionService>();
             services.AddSingleton(qf => {
                 var str = Configuration["ConnectionString"]; //"Host=localhost;Port=5432;Username=ahatch1490;Database=exposure;"
 

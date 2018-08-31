@@ -1,0 +1,25 @@
+﻿@using System.Security.AccessControl
+@using System.Text.RegularExpressions
+@model ExposureAPI.ViewModels.SiteShow
+
+@{
+    ViewBag.Title = @Model.Site.Title;
+    Layout = "_Layout";
+}
+
+<h2>@Model.Site.Title</h2>
+<p>@Model.Site.Description</p>
+
+<h3>Contenct Sections</h3>
+
+    @foreach (var s in Model.ContentSections)
+    {
+        <div class="card" data-uuid="@s.Uuid">
+            <div class="card-body">
+                @Regex.Replace(new String(@s.Content.Take(200).ToArray()), "<.*?>", "") ... 
+                <a href="#" class="lnk-html-content" >more</a><a/>
+            </div>
+          
+        </div>
+    }
+

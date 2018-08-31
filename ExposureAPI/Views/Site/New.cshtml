@@ -1,0 +1,12 @@
+﻿@model ExposureAPI.Models.Site 
+@{
+    ViewBag.Title = "Sites";
+    Layout = "_Layout";
+}
+
+<button class="btn btn-primary" data-toggle="modal" data-target="#addSite">add</button>
+@using (Html.BeginForm("Create", "Site", FormMethod.Post))
+{
+    @Html.Partial("_Form", Model)
+}   
+

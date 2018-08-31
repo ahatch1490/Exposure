@@ -3,7 +3,6 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="ViewModels" />
     <Folder Include="wwwroot\" />
     <Folder Include="Resources\" />
     <Folder Include="Resources\CodeSchool\" />
