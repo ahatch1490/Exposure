@@ -8,12 +8,12 @@
 
 <h2>Sites</h2>
 <p>This is a bunch of sites</p>
-<button class="btn btn-primary" data-toggle="modal" data-target="#addSite">add</button>
+<button class="btn btn-primary" data-toggle="modal" data-target="#addSite" data-keyboard="false" data-backdrop="static" >add</button>
 <div class="card">
-    <ul>
+    <ul class="list-group">
         @foreach (var item in Model)
         {
-            <li>@item.SiteId -  @item.Title</li>
+            <li class="list-group-item site-item" data-site_url="site/show/@item.SiteId" >@item.SiteId -  @item.Title</li>
         }    
     </ul>    
 </div>
@@ -31,11 +31,7 @@
                 @using (Html.BeginForm("Create", "Site", FormMethod.Post))
                 {
                     <div class="modal-body">
-        
-                        @Html.Partial("_Form", new Site())
-        
-        
-        
+                        @Html.Partial("_Form", new Site())            
                     </div>
                     <div class="modal-footer">
                         <button type="submit" class="btn btn-primary">Create</button>

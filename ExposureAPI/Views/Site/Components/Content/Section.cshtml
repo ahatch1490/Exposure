@@ -1,0 +1,42 @@
+﻿@using System.Text.RegularExpressions
+@model ExposureAPI.Models.ContentSection
+
+<h5>section id: @Model.Uuid</h5>
+<div class="card" data-uuid="@Model.Uuid">
+    <div class="card-body">
+        @Regex.Replace(new String(@Model.Content.Take(200).ToArray()), "<.*?>", "") ...
+        <a href="#" class="lnk-html-content"  data-toggle="modal" data-uuid="@Model.Uuid" data-target="#@string.Format("modal_{0}", Model.Uuid.ToString())">more</a>
+    </div>
+</div>
+
+<div id="@string.Format("modal_{0}", Model.Uuid.ToString())" class="modal card" tabindex="-1" data-backdrop="static" data-keyboard="false">
+    <div class="modal-header">
+        <h5 class="modal-title">section id: @Model.Uuid </h5>    
+        <button type="button" class="close"  data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div class="view-section fade show">
+            <p>
+                @Html.Raw(Model.Content)
+            </p>
+            <button class="section-edit" data-uuid="@Model.Uuid" >edit</button>
+        </div>
+        <div class="edit_content_section fade">
+            <p>    
+                <form id=".content-section">
+                    <textarea class="content-body" style="height: 100%; width: 100%;">
+                    @Html.Raw(Model.Content)      
+                </textarea>
+                    <button type="button"  class="btn btn-primary">save</button>
+                </form>
+            </p>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+    </div>
+
+</div>

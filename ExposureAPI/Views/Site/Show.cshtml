@@ -1,4 +1,5 @@
-﻿@using System.Security.AccessControl
+﻿@using System.Collections.Specialized
+@using System.Security.AccessControl
 @using System.Text.RegularExpressions
 @model ExposureAPI.ViewModels.SiteShow
 
@@ -6,20 +7,39 @@
     ViewBag.Title = @Model.Site.Title;
     Layout = "_Layout";
 }
+@addTagHelper *, ASP
 
 <h2>@Model.Site.Title</h2>
 <p>@Model.Site.Description</p>
 
-<h3>Contenct Sections</h3>
+<h3>Content Sections</h3> <a href="#" id="add-section" class="lnk-html-content"  data-toggle="modal"  data-target="#modal_new">add</a>
 
     @foreach (var s in Model.ContentSections)
     {
-        <div class="card" data-uuid="@s.Uuid">
-            <div class="card-body">
-                @Regex.Replace(new String(@s.Content.Take(200).ToArray()), "<.*?>", "") ... 
-                <a href="#" class="lnk-html-content" >more</a><a/>
-            </div>
-          
-        </div>
+        @await Component.InvokeAsync("Content", new
+        {
+            Section = s 
+        })
     }
+
+<div id="modal_new" class="modal card" tabindex="-10" data-backdrop="static" data-keyboard="false">
+    <div class="modal-header">
+        <h5 class="modal-title">New Section</h5>
+        <button type="button" class="close"  data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <form id=".content-section">
+            <textarea class="content-body" style="height: 100%; width: 100%;"></textarea>
+            <button type="button"  class="btn btn-primary">save</button>
+        </form>    
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div>
+
+</div>
+
 

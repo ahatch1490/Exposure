@@ -1,12 +1,13 @@
 const path = require('path');
 module.exports = {
-    entry: './wwwroot/Source/app.ts',
+    entry: './wwwroot/Source/Script/app.ts',
     module: {
         rules: [
             {
                 test: /\.tsx?$/,
                 use: 'ts-loader',
-                exclude: /node_modules/
+                exclude: /node_modules/,
+                devtool: 'inline-source-map'
             }
         ]
     },
