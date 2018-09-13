@@ -8,7 +8,7 @@ namespace Components
     {
         public IViewComponentResult Invoke( ContentSection section)
         {
-            return View("Section", section);
+            return View("Content", section);
         }
     }
 }

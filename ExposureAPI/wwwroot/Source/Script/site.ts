@@ -6,7 +6,7 @@ import * as SimpleMDE from "simplemde";
 $(function(){
 
     let index  = new SiteIndex();
-    let Show = new SiteShow();
+    //let Show = new SiteShow();
    
 });
 
