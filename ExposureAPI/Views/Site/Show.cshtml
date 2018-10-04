@@ -6,6 +6,11 @@
 }
 @addTagHelper *, ASP
 
+@await Component.InvokeAsync("Script", new
+{
+    className = "SiteShow"   
+});
+
 
 <h2>@Model.Site.Title</h2>
 <p>@Model.Site.Description</p>
@@ -39,8 +44,4 @@
     </div>
 
 </div>
-@await Component.InvokeAsync("Script", new
-{
-    className = "SiteShow"   
-});
 

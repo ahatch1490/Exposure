@@ -1,4 +1,5 @@
-﻿using ExposureAPI.Models;
+﻿using System;
+using ExposureAPI.Models;
 using ExposureAPI.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,7 +22,6 @@ namespace ExposureAPI.Controllers
             return
             View(_service.GetSites());
         }
-
         // GET
         [Route("/site/new")]
         public IActionResult New()
@@ -43,7 +43,6 @@ namespace ExposureAPI.Controllers
             site = _service.InserSite(site);
             return Redirect($"/site/show/{site.SiteId}");
         }
-        
         [Route("/site/show/{id}")]
         public IActionResult show(int id)
         {
@@ -52,6 +51,18 @@ namespace ExposureAPI.Controllers
             return 
             View(new SiteShow(site,contentSections));
         }
+
+        [HttpPost("/site/{siteid}/section/{uuid}/update")]
+        public ActionResult UpdateSection()
+        {
+            string content   = HttpContext.Request.Form["Content"];
+            string uuid = HttpContext.Request.Form["uuid"];
+            var section = _contentSectionService.GetContentSection(Guid.Parse(uuid));
+            section.Content = content; 
+            section = _contentSectionService.UpdateContentSection(section);
+            return Redirect($"/site/show/{section.SiteId}");
+        }
+        
         
     }
 }

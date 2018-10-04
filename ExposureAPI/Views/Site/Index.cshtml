@@ -5,6 +5,13 @@
     ViewBag.Title = "Sites";
     Layout = "_Layout";
 }
+@addTagHelper *, ASP
+
+@await Component.InvokeAsync("Script", new
+{
+    className = "SiteIndex"   
+})
+
 
 <h2>Sites</h2>
 <p>This is a bunch of sites</p>

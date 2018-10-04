@@ -36,9 +36,20 @@ namespace ExposureAPI.Models
 
         public ContentSection GetContentSection(int contentSectionId)
         {
-            return _factory.Query("content_sections").Where("content_section_id",contentSectionId).Get<ContentSection>().First(); 
+            return _factory.Query("content_sections").Where("contentsectionid",contentSectionId).Get<ContentSection>().First(); 
+        }
+
+        public ContentSection UpdateContentSection(ContentSection section)
+        {
+            var uuid = Guid.NewGuid();
+            _factory.Query("content_sections").Where("contentsectionid", section.ContentSectionId ).Update(new
+                {              
+                    content = section.Content,
+                }
+            );
+            return section; 
         }
         
-        
+         
     }
 }

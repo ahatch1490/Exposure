@@ -2,7 +2,7 @@
 using ExposureAPI.Resources.GoodReads;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ExposureAPI.Controllers
+namespace ExposureAPI.Controllers.V1
 {
     [Produces("application/json")]
     [Route("api/[controller]")]

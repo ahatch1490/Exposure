@@ -3,12 +3,14 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="Views\Section" />
     <Folder Include="wwwroot\" />
     <Folder Include="Resources\" />
     <Folder Include="Resources\CodeSchool\" />
     <Folder Include="wwwroot\App" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Markdig" Version="0.15.3" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="Npgsql" Version="4.0.2" />
@@ -18,5 +20,12 @@
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\Source\Script\app.ts" />
+    <_ContentIncludedByDefault Remove="wwwroot\Source\Script\site.ts" />
+    <_ContentIncludedByDefault Remove="wwwroot\Source\Scripts\app.ts" />
+    <_ContentIncludedByDefault Remove="ExposureAPITest\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="ExposureAPITest\obj\project.packagespec.json" />
   </ItemGroup>
 </Project>

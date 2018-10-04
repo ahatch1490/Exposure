@@ -1,7 +1,5 @@
 @model  string
 
-<script type="text/javascript">
-    $(document).ready(function() {
-       @string.Format("new {0}();", Model)
-    }); 
-</script>    
+<div>
+    <input type="hidden" id="module_pb_seed" value="@Model"/>
+</div>

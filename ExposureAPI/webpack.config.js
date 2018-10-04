@@ -1,5 +1,7 @@
 
         const path = require('path');
+        var webpack = require('webpack');
+
         
         module.exports = {
             entry: './wwwroot/Source/Script/app.ts',
@@ -8,7 +10,7 @@
                 filename: 'bundle.js'
             },
             devtool: 'inline-source-map',
-            module: {
+            module: { 
                 rules: [
                     {
                         test: /\.tsx?$/,
@@ -23,12 +25,18 @@
                             {loader: "style-loader"},
                             {loader: "css-loader"}
                         ]
-                    }],
-
-                // resolve: {
-                //     extensions: ['.tsx', '.ts', '.js']
-                // }
-            }
+                    }]
+            },
+            resolve: {
+                extensions: [ '.tsx', '.ts', '.js' ]
+            },
+            plugins: [
+                new webpack.ProvidePlugin({
+                    $: 'jquery',
+                    jQuery: 'jquery'
+                })
+            ]
+      
         };
 
 
