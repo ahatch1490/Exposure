@@ -2,6 +2,7 @@
 using ExposureAPI.Models;
 using ExposureAPI.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis;
 
 namespace ExposureAPI.Controllers
 {
@@ -63,6 +64,15 @@ namespace ExposureAPI.Controllers
             return Redirect($"/site/show/{section.SiteId}");
         }
         
+        
+        [HttpPost("/site/{siteid}/section/create")]
+        public ActionResult CreateSection(int siteid )
+        {   
+            string content   = HttpContext.Request.Form["Content"];
+            var section = new ContentSection {Content = content,SiteId = siteid};
+            section = _contentSectionService.InsertContentSection(section);
+            return Redirect($"/site/show/{section.SiteId}");
+        }
         
     }
 }

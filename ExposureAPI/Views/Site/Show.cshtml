@@ -9,7 +9,7 @@
 @await Component.InvokeAsync("Script", new
 {
     className = "SiteShow"   
-});
+})
 
 
 <h2>@Model.Site.Title</h2>
@@ -33,9 +33,9 @@
         </button>
     </div>
     <div class="modal-body">
-        <form id=".content-section">
-            <textarea class="content-body" style="height: 100%; width: 100%;"></textarea>
-            <button type="button"  class="btn btn-primary">save</button>
+        <form class="content-section-form" method="post" action="@String.Format("/site/{0}/section/create",@Model.Site.SiteId)">
+            <textarea class="content-body" name="content" style="height: 100%; width: 100%;"></textarea>
+            <button type="button"  class="btn btn-primary new-save">save</button>
         </form>    
 
     </div>
