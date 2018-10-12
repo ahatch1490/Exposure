@@ -12,8 +12,8 @@ class SiteIndex {
 }
 
 
- class SiteShow {
-    
+class SiteShow {
+
     constructor() {
         let that = this; 
         $('#add-section').on('click', function (e) {
@@ -29,8 +29,7 @@ class SiteIndex {
             return true;
         });
     }
-    
-     createEditSection(uuid :string) {
+    createEditSection(uuid :string) {
         let $modal = $('#modal_' + uuid );
     
         let $view_section = $modal.find('.view-section');
@@ -39,7 +38,6 @@ class SiteIndex {
         let $submit_button = $modal.find('.section-save')
         $view_section.addClass('d-none');
         $edit_content_section.addClass('show');
-    
     
         let s = new SimpleMDE({ element: $content_body[0]});
     
@@ -50,22 +48,19 @@ class SiteIndex {
         });
     }
 
-     createAddSection() {
-
-         let $modal = $("#modal_new");
-         let $content_body = $modal.find(".content-body");
-         let s = new SimpleMDE({ element: $content_body[0]});
-         let $submit_button = $modal.find('.new-save')
-
-         $submit_button.on("click",function (e){
-             e.preventDefault();
-
-             $modal.find('.content-section-form').submit();
-         })
-     }
-
-
-
- }
+    createAddSection() {
+    
+     let $modal = $("#modal_new");
+     let $content_body = $modal.find(".content-body");
+     let s = new SimpleMDE({ element: $content_body[0]});
+     let $submit_button = $modal.find('.new-save')
+    
+     $submit_button.on("click",function (e){
+         e.preventDefault();
+    
+         $modal.find('.content-section-form').submit();
+     })
+    }
+}
 
 export {SiteShow,SiteIndex}

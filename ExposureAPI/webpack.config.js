@@ -25,8 +25,30 @@
                             {loader: "style-loader"},
                             {loader: "css-loader"}
                         ]
-                    }]
+                    },
+                    {
+                        test: /\.scss$/,
+                        exclude: ['node_modules'],
+                        use: [
+
+                            {loader: "style-loader"},
+                            {loader: "css-loader"},
+                            {loader: 'sass-loader'}
+                        ]
+                    },
+                    {
+                        test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)(\?.*$|$)/,
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            outputPath: 'Fonts/',    // where the fonts will go
+                            publicPath: '../../../App/Fonts'       // override the default path
+                        }
+                    }
+                    
+                    ]
             },
+            
             resolve: {
                 extensions: [ '.tsx', '.ts', '.js' ]
             },

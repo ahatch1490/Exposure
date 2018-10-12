@@ -7,7 +7,8 @@
     <Folder Include="wwwroot\" />
     <Folder Include="Resources\" />
     <Folder Include="Resources\CodeSchool\" />
-    <Folder Include="wwwroot\App" />
+    <Folder Include="wwwroot\App\Fonts" />
+    <Folder Include="wwwroot\App\images" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Markdig" Version="0.15.3" />

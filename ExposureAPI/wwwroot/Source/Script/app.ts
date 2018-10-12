@@ -3,8 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'underscore';
 import '../Styles/site.css';
 import '../Styles/app.css';
+import '../Styles/app.scss';
 import 'simplemde';
 import 'simplemde/dist/simplemde.min.css';
+
+
 
 import {pageScriptBuilder} from "./pageBuilder"
 

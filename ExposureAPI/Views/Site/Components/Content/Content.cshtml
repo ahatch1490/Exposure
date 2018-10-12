@@ -5,8 +5,16 @@
 <h5>section id: @Model.Uuid</h5>
 <div class="card" data-uuid="@Model.Uuid">
     <div class="card-body">
-        @Html.Raw( Html.MarkDownToHtml(Regex.Replace(new String(@Model.Content.Take(200).ToArray()), "<.*?>", ""))) ...
-        <a href="#" class="lnk-html-content"  data-toggle="modal" data-uuid="@Model.Uuid" data-target="#@string.Format("modal_{0}", Model.Uuid.ToString())">more</a>
+        <div class="row">
+            <div class="col-1">
+                <i class="far fa-trash-alt"></i>
+            </div>
+            <div class="col-11">
+                @Html.Raw(Html.MarkDownToHtml(Regex.Replace(new String(@Model.Content.Take(200).ToArray()), "<.*?>", ""))) ...
+                <a href="#" class="lnk-html-content" data-toggle="modal" data-uuid="@Model.Uuid" data-target="#@string.Format("modal_{0}", Model.Uuid.ToString())">more</a>
+            </div>
+        </div>
+
     </div>
 </div>
 
