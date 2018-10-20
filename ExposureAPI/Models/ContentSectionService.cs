@@ -17,6 +17,12 @@ namespace ExposureAPI.Models
             return _factory.Query("content_sections").Where("siteid", siteid).Get<ContentSection>(); 
         }
 
+        public IEnumerable<ContentSection> GetContentSectionsIncludeInactive(int siteId)
+        {
+            return _factory.Query("content_sections").Where("siteid", siteId).Get<ContentSection>(); 
+        }
+
+
         public ContentSection InsertContentSection(ContentSection section)
         {
             var uuid = Guid.NewGuid();
@@ -33,6 +39,7 @@ namespace ExposureAPI.Models
         {
             return _factory.Query("content_sections").Where("uuid", uuid).Get<ContentSection>().First(); 
         }
+        
 
         public ContentSection GetContentSection(int contentSectionId)
         {
@@ -49,7 +56,11 @@ namespace ExposureAPI.Models
             );
             return section; 
         }
-        
-         
+
+
+        public void DeleteContentSection(Guid uuid)
+        {
+             _factory.Query("content_sections").Where("uuid", uuid ).AsDelete();
+        }
     }
 }

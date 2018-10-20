@@ -7,7 +7,7 @@
     <div class="card-body">
         <div class="row">
             <div class="col-1">
-                <i class="far fa-trash-alt"></i>
+                <a href="@($"/site/{Model.SiteId}/section/delete/{Model.Uuid}")" class="btn-sm"> <i class="far fa-trash-alt"></i></a>
             </div>
             <div class="col-11">
                 @Html.Raw(Html.MarkDownToHtml(Regex.Replace(new String(@Model.Content.Take(200).ToArray()), "<.*?>", ""))) ...

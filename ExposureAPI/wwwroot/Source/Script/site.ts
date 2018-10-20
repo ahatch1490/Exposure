@@ -1,6 +1,4 @@
 import * as SimpleMDE from "simplemde";
-import NameValuePair = JQuery.NameValuePair;
-
 
 class SiteIndex {
     constructor() {
@@ -11,25 +9,25 @@ class SiteIndex {
     }
 }
 
-
 class SiteShow {
 
     constructor() {
         let that = this; 
         $('#add-section').on('click', function (e) {
             e.preventDefault();
-            that.createAddSection();
+            that.createSection();
             return true 
         });
         
         $('.section-edit').on('click',function(e: any ){
             e.preventDefault();
             let uuid: string = $(this).data('uuid');
-            that.createEditSection(uuid);
+            that.editSection(uuid);
             return true;
         });
+        
     }
-    createEditSection(uuid :string) {
+    editSection(uuid :string) {
         let $modal = $('#modal_' + uuid );
     
         let $view_section = $modal.find('.view-section');
@@ -48,19 +46,21 @@ class SiteShow {
         });
     }
 
-    createAddSection() {
+    createSection() {
     
      let $modal = $("#modal_new");
      let $content_body = $modal.find(".content-body");
      let s = new SimpleMDE({ element: $content_body[0]});
-     let $submit_button = $modal.find('.new-save')
-    
+     let $submit_button = $modal.find('.new-save');
      $submit_button.on("click",function (e){
          e.preventDefault();
-    
          $modal.find('.content-section-form').submit();
      })
+
     }
+    
+    
+    
 }
 
 export {SiteShow,SiteIndex}

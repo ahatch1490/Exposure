@@ -15,6 +15,8 @@
 <h2>@Model.Site.Title</h2>
 <p>@Model.Site.Description</p>
 
+<p><a href="@($"/site/{Model.Site.SiteId}/Gallery")">Gallery</a></p>
+
 <h3>Content Sections</h3> <a href="#" id="add-section" class="lnk-html-content"  data-toggle="modal"  data-target="#modal_new">add</a>
 
     @foreach (var s in Model.ContentSections)

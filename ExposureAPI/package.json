@@ -42,8 +42,10 @@
     "@types/simplemde": "^1.11.7",
     "autoprefixer": "^9.1.5",
     "exports-loader": "^0.7.0",
+    "filepond": "^3.1.1",
     "font-awesome": "^4.7.0",
     "imports-loader": "^0.8.0",
+    "jquery-filepond": "^1.0.0",
     "precss": "^3.1.2",
     "simplemde": "^1.11.2",
     "tether": "^1.4.5"

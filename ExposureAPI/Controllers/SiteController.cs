@@ -8,8 +8,8 @@ namespace ExposureAPI.Controllers
 {
     public class SiteController : Controller
     {
-        private SiteService _service;
-        private ContentSectionService _contentSectionService; 
+        private readonly SiteService _service;
+        private readonly ContentSectionService _contentSectionService; 
         public SiteController(SiteService service, ContentSectionService contentService)
         {
             _contentSectionService = contentService; 
@@ -73,6 +73,13 @@ namespace ExposureAPI.Controllers
             section = _contentSectionService.InsertContentSection(section);
             return Redirect($"/site/show/{section.SiteId}");
         }
-        
+
+        [HttpGet("/site/{siteId}/section/delete/{uuid}")]
+        public ActionResult DeleteSection(int siteId, Guid uuid)
+        {
+            _contentSectionService.DeleteContentSection(uuid);
+            return Redirect($"/site/show/{siteId}");
+        }
+
     }
 }

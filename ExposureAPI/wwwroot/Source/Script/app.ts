@@ -6,6 +6,10 @@ import '../Styles/app.css';
 import '../Styles/app.scss';
 import 'simplemde';
 import 'simplemde/dist/simplemde.min.css';
+import 'filepond'
+import 'filepond/dist/filepond.min.css';
+
+
 
 
 
