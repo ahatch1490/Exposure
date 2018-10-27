@@ -13,8 +13,11 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Npgsql;
+
 using SqlKata.Compilers;
 using SqlKata.Execution;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace ExposureAPI
 {
@@ -31,6 +34,11 @@ namespace ExposureAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddCors();
+            // Use a PostgreSQL database
+            var str = Configuration["ConnectionString"]; 
+
+            services.AddEntityFrameworkNpgsql().AddDbContext<GalleryContext>(options => options.UseNpgsql(str));
             services.AddSingleton<IContextClient, ContextClient>();     
             services.AddSingleton<IGoodReadsSettings, GoodReadsSettings>();
             services.AddSingleton<IXMLClient, XMLClient>();
@@ -38,7 +46,6 @@ namespace ExposureAPI
             services.AddSingleton<SiteService, SiteService>();
             services.AddSingleton<ContentSectionService, ContentSectionService>();
             services.AddSingleton(qf => {
-                var str = Configuration["ConnectionString"]; //"Host=localhost;Port=5432;Username=ahatch1490;Database=exposure;"
 
                 var connection = new NpgsqlConnection(str);
 
@@ -47,6 +54,8 @@ namespace ExposureAPI
                 return new QueryFactory(connection,compiler);
 
             });
+            
+   
           
 
 
