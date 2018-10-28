@@ -20,15 +20,15 @@ namespace ExposureAPI.Models
 
         public Site InserSite(Site site)
         {
-            site.Uuid = Guid.NewGuid(); 
+            site.UUID = Guid.NewGuid(); 
             _factory.Query("sites").Insert(new
             {
                 title = site.Title    , 
                 description = site.Description,
-                uuid = site.Uuid
+                uuid = site.UUID
                 
             });
-            return GetSite(site.Uuid);
+            return GetSite(site.UUID);
 
 
         }

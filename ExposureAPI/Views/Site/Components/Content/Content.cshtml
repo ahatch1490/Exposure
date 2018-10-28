@@ -2,25 +2,25 @@
 @using ExposureAPI.Models
 @model ExposureAPI.Models.ContentSection
 
-<h5>section id: @Model.Uuid</h5>
-<div class="card" data-uuid="@Model.Uuid">
+<h5>section id: @Model.UUID</h5>
+<div class="card" data-uuid="@Model.UUID">
     <div class="card-body">
         <div class="row">
             <div class="col-1">
-                <a href="@($"/site/{Model.SiteId}/section/delete/{Model.Uuid}")" class="btn-sm"> <i class="far fa-trash-alt"></i></a>
+                <a href="@($"/site/{Model.SiteId}/section/delete/{Model.UUID}")" class="btn-sm"> <i class="far fa-trash-alt"></i></a>
             </div>
             <div class="col-11">
                 @Html.Raw(Html.MarkDownToHtml(Regex.Replace(new String(@Model.Content.Take(200).ToArray()), "<.*?>", ""))) ...
-                <a href="#" class="lnk-html-content" data-toggle="modal" data-uuid="@Model.Uuid" data-target="#@string.Format("modal_{0}", Model.Uuid.ToString())">more</a>
+                <a href="#" class="lnk-html-content" data-toggle="modal" data-uuid="@Model.UUID" data-target="#@string.Format("modal_{0}", Model.UUID.ToString())">more</a>
             </div>
         </div>
 
     </div>
 </div>
 
-<div id="@string.Format("modal_{0}", Model.Uuid.ToString())" class="modal card" tabindex="-1" data-backdrop="static" data-keyboard="false">
+<div id="@string.Format("modal_{0}", Model.UUID.ToString())" class="modal card" tabindex="-1" data-backdrop="static" data-keyboard="false">
     <div class="modal-header">
-        <h5 class="modal-title">section id: @Model.Uuid </h5>    
+        <h5 class="modal-title">section id: @Model.UUID </h5>    
         <button type="button" class="close"  data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
@@ -30,12 +30,12 @@
             <p>
                 @Html.Raw(Html.MarkDownToHtml(Model.Content))
             </p>
-            <button class="section-edit" data-uuid="@Model.Uuid" >edit</button>
+            <button class="section-edit" data-uuid="@Model.UUID" >edit</button>
         </div>
         <div class="edit_content_section fade">
             <p>
-                <form class="content-section-form" method="post" action="@String.Format("/site/{0}/section/{1}/update",@Model.SiteId,@Model.Uuid)">
-                    <input type="hidden" name="uuid" value="@Model.Uuid" /> 
+                <form class="content-section-form" method="post" action="@String.Format("/site/{0}/section/{1}/update",@Model.SiteId,@Model.UUID)">
+                    <input type="hidden" name="uuid" value="@Model.UUID" /> 
                     <textarea   name="content" class="content-body"  style="height: 100%; width: 100%;">
                         @Html.Raw(Model.Content)      
                     </textarea>

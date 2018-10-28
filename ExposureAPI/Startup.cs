@@ -38,13 +38,17 @@ namespace ExposureAPI
             // Use a PostgreSQL database
             var str = Configuration["ConnectionString"]; 
 
+            services.AddEntityFrameworkNpgsql().AddDbContext<SiteContext>(options => options.UseNpgsql(str));
+            services.AddEntityFrameworkNpgsql().AddDbContext<ContentSectionContext>(options => options.UseNpgsql(str));
             services.AddEntityFrameworkNpgsql().AddDbContext<GalleryContext>(options => options.UseNpgsql(str));
+
             services.AddSingleton<IContextClient, ContextClient>();     
             services.AddSingleton<IGoodReadsSettings, GoodReadsSettings>();
             services.AddSingleton<IXMLClient, XMLClient>();
             services.AddSingleton<IGoodReadsService,GoodReadsService>();
-            services.AddSingleton<SiteService, SiteService>();
-            services.AddSingleton<ContentSectionService, ContentSectionService>();
+//            services.AddSingleton<SiteContext, SiteContext>();
+//            services.AddSingleton<ContentSectionContext, ContentSectionContext>();
+//            services.AddSingleton<GalleryContext, GalleryContext>();
             services.AddSingleton(qf => {
 
                 var connection = new NpgsqlConnection(str);
@@ -54,10 +58,6 @@ namespace ExposureAPI
                 return new QueryFactory(connection,compiler);
 
             });
-            
-   
-          
-
 
         }
 
