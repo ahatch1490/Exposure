@@ -1,5 +1,4 @@
-﻿@using ExposureAPI.Models
-@model ExposureAPI.Models.Gallery
+﻿@model IEnumerable<ExposureAPI.Models.Gallery>
 @{
     ViewBag.Title = "title";
     Layout = "_Layout";
@@ -13,8 +12,13 @@
 
 <h2>title</h2>
 <ul>
-    <il>@Html.Partial("_Uploader")</il>
-    <li>@Model.GalleryId</li>
+    @foreach (var gallery in Model)
+    {
+        <li>
+            @Html.ActionLink(gallery.Title,"show","Gallery",new{siteid=gallery.SiteId,galleryid = gallery.GalleryId })
+
+        </li>
+    }     
 </ul>
 
 

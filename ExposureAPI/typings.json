@@ -1,0 +1,5 @@
+{
+  "globalDependencies": {
+    "filepond": "file:./typings/filepond.d.ts",
+  }
+}

@@ -1,5 +1,5 @@
 import {SiteShow,SiteIndex} from "./site";
-import {GalleryIndex} from "./gallery";
+import {GalleryIndex,GalleryShow} from "./gallery";
 
 
 export class pageScriptBuilder {
@@ -12,7 +12,7 @@ export class pageScriptBuilder {
    
 }
 
-const  ObjectStore: any  = {SiteIndex ,SiteShow,GalleryIndex};
+const  ObjectStore: any  = {SiteIndex ,SiteShow,GalleryIndex,GalleryShow};
 
 
 

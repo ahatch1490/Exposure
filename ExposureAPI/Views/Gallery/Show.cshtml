@@ -1,0 +1,24 @@
+@model ExposureAPI.Models.Gallery
+@await Component.InvokeAsync("Script", new
+{
+    className = "GalleryShow"   
+})
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>@Model.Title</h2>
+
+<ul/>
+<li>
+    <il>@Html.Partial("_Uploader")</il>
+</li>
+   @foreach (var image in Model.Images)
+   {
+       <li>
+           <img src="@image.Path"/>
+       </li>
+   }
+</u>
