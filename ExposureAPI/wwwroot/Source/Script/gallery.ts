@@ -29,11 +29,11 @@ export class GalleryShow
         const pond = FilePond.create(inputElement,
             {
                 server: {
-                    process: './process',
+                    process: window.location.pathname + '/process',
                     fetch: null,
                     revert: null
                 }    
-        });
+        }); 
       
     }
 

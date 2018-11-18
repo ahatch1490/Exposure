@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 
 namespace ExposureAPI.Models
@@ -8,12 +7,25 @@ namespace ExposureAPI.Models
     {
         public GalleryContext(DbContextOptions<GalleryContext> options) : base(options) { }
         public DbSet<Gallery> Galleries { get; set; }  
-
+        public DbSet<Image> Images { get; set; }  
         
         protected override void OnModelCreating(ModelBuilder  modelBuilder)
         {
             modelBuilder.HasDefaultSchema("public");
-            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Image>(entity =>
+                entity.HasOne(i => i.Gallery)
+                    .WithMany(g => g.Images)
+                    .HasForeignKey(g => g.GalleryId)
+                );
+                    
+//            modelBuilder.Entity<Gallery>(entity =>
+//            {
+//                entity.HasMany(g => g.Images)
+//                    .WithOne(i => i.Gallery)
+//                    .HasForeignKey(g => g.GalleryId);
+//            }); 
+
+
         }
         
     }

@@ -9,6 +9,7 @@
     <Folder Include="Resources\CodeSchool\" />
     <Folder Include="wwwroot\App\Fonts" />
     <Folder Include="wwwroot\App\images" />
+    <Folder Include="wwwroot\images\11\3" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Markdig" Version="0.15.3" />
