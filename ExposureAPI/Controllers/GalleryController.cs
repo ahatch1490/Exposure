@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -44,6 +45,7 @@ namespace ExposureAPI.Controllers
             var id = Guid.NewGuid().ToString();
             if (filepond.Length > 0)
             {
+            
                 if( ! Directory.Exists(Path.GetTempPath() + $"/{id}/"))
                 {
                     Directory.CreateDirectory(Path.GetTempPath() + $"/{id}/"); 
@@ -99,29 +101,29 @@ namespace ExposureAPI.Controllers
             
         }
         
-//        public async Task<IActionResult> Post(List<IFormFile> files)
-//        {
-//            long size = files.Sum(f => f.Length);
-//
-//            // full path to file in temp locatixon
-//            var filePath = Path.GetTempFileName();
-//
-//            foreach (var formFile in files)
-//            {
-//                if (formFile.Length > 0)
-//                {
-//                    using (var stream = new FileStream(filePath, FileMode.Create))
-//                    {
-//                        await formFile.CopyToAsync(stream);
-//                    }
-//                }
-//            }
-//
-//            // process uploaded files
-//            // Don't rely on or trust the FileName property without validation.
-//
-//            return Ok(new { count = files.Count, size, filePath});
-//        }
+        public async Task<IActionResult> Post(List<IFormFile> files)
+        {
+            long size = files.Sum(f => f.Length);
+
+            // full path to file in temp locatixon
+            var filePath = Path.GetTempFileName();
+
+            foreach (var formFile in files)
+            {
+                if (formFile.Length > 0)
+                {
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await formFile.CopyToAsync(stream);
+                    }
+                }
+            }
+
+            // process uploaded files
+            // Don't rely on or trust the FileName property without validation.
+
+            return Ok(new { count = files.Count, size, filePath});
+        }
 
 
         [HttpPost("/site/{siteId}/Gallery")]
@@ -136,6 +138,17 @@ namespace ExposureAPI.Controllers
             var gallery = _context.Galleries.Include(g => g.Images).First(g => g.SiteId == siteId);
             return View(gallery); 
         }
-
+        
+        [HttpGet("/Gallery/image/destroy/{imageId}")]
+        public void Destroy(int imageId)
+        {
+            var image = _context.Images.Include(i => i.Gallery).First(i => i.ImageId == imageId);
+            var gallery = image.Gallery; 
+            _context.Images.Remove(image);
+            _context.SaveChanges(); 
+            Response.Redirect($"/site/{gallery.SiteId}/Gallery/{gallery.GalleryId}");
+        } 
+        
+       
     }
 }

@@ -17,7 +17,7 @@ namespace ExposureAPI.Controllers
             _service = service; 
         }
         // GET
-        [Route("/")]
+        [Route("/sites")]
         public IActionResult Index()
         {
             return

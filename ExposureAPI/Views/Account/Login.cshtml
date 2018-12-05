@@ -1,0 +1,26 @@
+
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>Login</h2>
+
+<div class="card">
+    @using (Html.BeginForm("Create","Account", FormMethod.Post,
+        new {enctype = "multipart/form-daeta"}))
+    {
+        <label for="username">User Name</label>
+        @Html.TextBox("username")
+        <br/>
+        <label for="password">Password</label>
+        @Html.Password("password")
+        <br/>
+        <button type="submit">Submit</button>
+    }
+ 
+  
+</div>
+
+

@@ -18,7 +18,8 @@
    @foreach (var image in Model.Images)
    {
        <li>
-           <img src="@image.Path"/>
+           <a href=@"/Gallery/Image/Destroy/{image.imageId}"></a>
+           <img src="@image.Path" style="max-height: 50px; max-width: 50px;"/>
        </li>
    }
 </u>
